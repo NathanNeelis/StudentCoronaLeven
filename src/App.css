@@ -7,7 +7,23 @@
 body {
   font-family: Helvetica, sans-serif;
   color:#333333;
+  font-size:16px;
 }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+
+/* ----------------------------------------------
+Introduction 
+---------------------------------------------- */
 
 .introduction {
   width:100vw;
@@ -16,12 +32,120 @@ body {
 }
 
 .introduction div{
-  width:60vw;
-  background-color:yellow;
+  width:50vw;
   margin: 0 auto;
 }
 
 .introduction h1 {
-  padding:2em;
+  padding:2em 2em 0 2em;
   text-align:center;
+  font-size: 3em;
 }
+
+.introduction p {
+  padding: 1.5em 2em 2em 2em;
+  text-align:center;
+  line-height:1.5em;
+}
+
+.introduction svg{
+  display:block;
+  margin: 2em auto 0 auto;
+}
+/* ----------------------------  END introduction --------------------------------- */
+
+
+
+/* ----------------------------------------------
+Persona's
+---------------------------------------------- */
+
+.persona h2{
+  text-align:center;
+  margin-top:4em;
+
+}
+
+.persona div {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items:center;
+  margin:1em 0 0 0;
+}
+
+.persona h3 {
+  padding-left:.5em;
+  font-size:1em;
+}
+
+.personaNathan {
+  width:4em;
+  border: 3px solid #1F615F;
+  background-color:#1F615F;
+  border-radius:50%;
+}
+
+.containerNathan h3 {
+  color: #1F615F;
+}
+
+.personaArthur {
+  width:4em;
+  border: 3px solid #76ABFF;
+  background-color: #76ABFF;
+  border-radius:50%;
+}
+
+.containerArthur h3 {
+  color: #76ABFF;
+}
+
+.personaDenise {
+  width:4em;
+  border: 3px solid #FF76EA;
+  background-color: #FF76EA;
+  border-radius:50%;
+}
+
+.containerDenise h3 {
+  color: #FF76EA;
+}
+
+.personaJustin {
+  width:4em;
+  border: 3px solid #FFAB76;
+  background-color: #FFAB76;
+  border-radius:50%;
+}
+
+.containerJustin h3 {
+  color: #FFAB76;
+}
+
+/* ----------------------------  END Persona's --------------------------------- */
+
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+      transform: translateY(0);
+  }
+
+  40% {
+      transform: translateY(-30px);
+  }
+
+  60% {
+      transform: translateY(-15px);
+  }
+}
+
