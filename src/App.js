@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 function App() {
       const [intro, setIntro] = useState(false)
-      const [begin, setBegin] = useState(false)
+      const [sport, setSport] = useState(false)
 
       function enterIntroduction(){
           setIntro(true)
@@ -17,17 +17,17 @@ function App() {
       }
 
       function enterBegin(){
-        setBegin(true)
+        setSport(true)
       }
 
       function leaveBegin(){
-        setBegin(false)
+        setSport(false)
       }
 
 
   return (
     <div>
-    <Navigation introduction={intro} begin={begin}/>
+    <Navigation introduction={intro} sport={sport}/>
     <div className="scroll-container">
       <div onMouseEnter={enterIntroduction} onMouseLeave={leaveIntroduction}>
         <Intro />

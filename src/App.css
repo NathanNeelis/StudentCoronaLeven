@@ -81,6 +81,14 @@ nav a {
   color:gray;
 }
 
+nav ul li span {
+  opacity: 0;
+}
+
+nav ul li:hover span {
+  opacity: 1;
+}
+
 
 /* ----------------------------  END Navigation --------------------------------- */
 
@@ -221,29 +229,107 @@ Sport
 ---------------------------------------------- */
 
 .sport {
-  background-color:#DFE5E5;
+  background-color:black;
   scroll-snap-align: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.sport div{
-  width:50vw;
-  margin: 0 auto;
+.datavis {
+  width: 70vw;
+  height: 80vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(243,124,124);
+  background: linear-gradient(90deg, rgba(243,124,124,1) 0%, rgba(205,0,130,1) 100%);
+  border-radius: 1em;
 }
 
-.sport h1 {
-  padding:2em 2em 0 2em;
-  text-align:center;
-  font-size: 3em;
+/* DIt IS RAAR. DE MARGIN VAN H2 EN P ZIJN NIET HETZEFLDE? */
+.datavis div{
+  margin: 2em 10em 0 2em;
 }
 
-.sport p {
-  padding: 1.5em 2em 2em 2em;
-  text-align:center;
-  line-height:1.5em;
+.datavis h2{
+  color:white;
 }
 
-.sport svg{
-  display:block;
-  margin: 2em auto 0 auto;
+.datavis p{
+  color:white;
+  padding-top:1em;
 }
+
+
+
+
+
+
+
+
+/* MESSAGES */
+
+.messages {
+  width:30vw;
+  height:80vh;
+  margin:3em 3em 3em 1em;
+  border-radius: 1em;
+  background-color: #343434;
+}
+
+.messages h3 {
+  padding:2em 2em 1em 2em;
+  color:white;
+}
+
+.messageContainer {
+  overflow-Y: scroll;
+  height:70vh;
+}
+
+.messageContainer::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
+
+.singleMessage {
+  margin:2em 2em 1em 2em;
+  background-color: white;
+  border-radius: .5em;
+  position:relative;
+}
+
+.singleMessage h4{
+  padding:2em 1em 1em 2em;
+  color:#343434;
+}
+
+.singleMessage p{
+  padding:0em 2em 1em 2em;
+  color:#343434;
+  line-height: 1.5em;
+}
+
+.singleMessage .messageRight{
+  width:2em;
+  height:2em;
+  background-color:white;
+  position:absolute;
+  transform: rotate(45deg);
+  right: -.5em;
+  top: 3em;
+  border-radius: .5em;
+}
+
+.singleMessage .messageLeft{
+  width:2em;
+  height:2em;
+  background-color:white;
+  position:absolute;
+  transform: rotate(45deg);
+  left: -.5em;
+  top: 3em;
+  border-radius: .5em;
+}
+
+
 /* ----------------------------  END Sport --------------------------------- */
