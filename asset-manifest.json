@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/StudentCoronaLeven/static/css/main.ae122241.chunk.css",
-    "main.js": "/StudentCoronaLeven/static/js/main.ee08ad46.chunk.js",
-    "main.js.map": "/StudentCoronaLeven/static/js/main.ee08ad46.chunk.js.map",
-    "runtime-main.js": "/StudentCoronaLeven/static/js/runtime-main.64d5a3dc.js",
-    "runtime-main.js.map": "/StudentCoronaLeven/static/js/runtime-main.64d5a3dc.js.map",
-    "static/js/2.7599c84a.chunk.js": "/StudentCoronaLeven/static/js/2.7599c84a.chunk.js",
-    "static/js/2.7599c84a.chunk.js.map": "/StudentCoronaLeven/static/js/2.7599c84a.chunk.js.map",
-    "static/js/3.63fb59fc.chunk.js": "/StudentCoronaLeven/static/js/3.63fb59fc.chunk.js",
-    "static/js/3.63fb59fc.chunk.js.map": "/StudentCoronaLeven/static/js/3.63fb59fc.chunk.js.map",
+    "main.css": "/StudentCoronaLeven/static/css/main.7c78cf6a.chunk.css",
+    "main.js": "/StudentCoronaLeven/static/js/main.35c95760.chunk.js",
+    "main.js.map": "/StudentCoronaLeven/static/js/main.35c95760.chunk.js.map",
+    "runtime-main.js": "/StudentCoronaLeven/static/js/runtime-main.5e30b2dd.js",
+    "runtime-main.js.map": "/StudentCoronaLeven/static/js/runtime-main.5e30b2dd.js.map",
+    "static/js/2.1e366a9b.chunk.js": "/StudentCoronaLeven/static/js/2.1e366a9b.chunk.js",
+    "static/js/2.1e366a9b.chunk.js.map": "/StudentCoronaLeven/static/js/2.1e366a9b.chunk.js.map",
+    "static/js/3.864f8b3b.chunk.js": "/StudentCoronaLeven/static/js/3.864f8b3b.chunk.js",
+    "static/js/3.864f8b3b.chunk.js.map": "/StudentCoronaLeven/static/js/3.864f8b3b.chunk.js.map",
     "index.html": "/StudentCoronaLeven/index.html",
-    "static/css/main.ae122241.chunk.css.map": "/StudentCoronaLeven/static/css/main.ae122241.chunk.css.map",
-    "static/js/2.7599c84a.chunk.js.LICENSE.txt": "/StudentCoronaLeven/static/js/2.7599c84a.chunk.js.LICENSE.txt",
+    "static/css/main.7c78cf6a.chunk.css.map": "/StudentCoronaLeven/static/css/main.7c78cf6a.chunk.css.map",
+    "static/js/2.1e366a9b.chunk.js.LICENSE.txt": "/StudentCoronaLeven/static/js/2.1e366a9b.chunk.js.LICENSE.txt",
     "static/media/arthur.a72afff9.svg": "/StudentCoronaLeven/static/media/arthur.a72afff9.svg",
     "static/media/denise.28c1c40e.svg": "/StudentCoronaLeven/static/media/denise.28c1c40e.svg",
     "static/media/justin.60437bbf.svg": "/StudentCoronaLeven/static/media/justin.60437bbf.svg",
     "static/media/nathan.f65dae20.svg": "/StudentCoronaLeven/static/media/nathan.f65dae20.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.64d5a3dc.js",
-    "static/js/2.7599c84a.chunk.js",
-    "static/css/main.ae122241.chunk.css",
-    "static/js/main.ee08ad46.chunk.js"
+    "static/js/runtime-main.5e30b2dd.js",
+    "static/js/2.1e366a9b.chunk.js",
+    "static/css/main.7c78cf6a.chunk.css",
+    "static/js/main.35c95760.chunk.js"
   ]
 }
