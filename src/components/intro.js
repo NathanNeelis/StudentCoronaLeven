@@ -6,7 +6,7 @@ import Persona from './persona'
 
 export default function Intro (props) {
     return (
-    <section className="introduction">
+    <section id="Start" className="introduction">
         <div>
             <h1 className="title">
             Het leven van een student in corona
@@ -33,6 +33,3 @@ export default function Intro (props) {
     </section>
     );
 }
-
-
-// <img src={Nathan} alt='Persona Nathan' className='personaNathan' />

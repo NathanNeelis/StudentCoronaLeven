@@ -1,12 +1,6 @@
-import Nathan from '../img/nathan.svg'
-import Denise from '../img/denise.svg'
-import Arthur from '../img/arthur.svg'
-import Justin from '../img/justin.svg'
-import Persona from './persona'
-
 export default function Sport (props) {
     return (
-    <section className="sport">
+    <section id="sportSection" className="sport">
         <div>
             <h1 className="title">
             Het leven van een student in corona
