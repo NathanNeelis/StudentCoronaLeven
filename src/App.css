@@ -648,6 +648,7 @@ Social Contact
   background-image:url(./img/sport-fitness-test.svg);
   background-size: 305%;
   background-repeat: no-repeat;
+  opacity: .5;
 }
 
 .animatieTest:hover{
