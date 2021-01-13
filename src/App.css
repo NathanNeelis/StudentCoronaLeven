@@ -5,11 +5,14 @@
 
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: Helvetica, sans-serif;
   color:#707070;
-  font-size:16px;
-  
+  font-size:1rem;
 }
 
 section {
@@ -235,8 +238,6 @@ TEMPLATE TOPIC PAGES
   display:flex;
   justify-content: center;
   flex-direction: row;
-  /* width:100vw;
-  height:100vh; */
 }
 
 /* DIt IS RAAR. DE MARGIN VAN H2 EN P ZIJN NIET HETZEFLDE? */
@@ -361,6 +362,7 @@ Sport
   align-items:center;
   flex-wrap:wrap;
   width: 55vw;
+  height:48vh;
   margin: 0 auto;
 }
 
@@ -420,3 +422,160 @@ Public Transport
 
 
 /* ----------------------------  END Public Transport --------------------------------- */
+
+
+
+
+
+
+
+/* ----------------------------  BREAK POINTS --------------------------------- */
+/* ----------------------------  BREAK POINTS --------------------------------- */
+/* ----------------------------  BREAK POINTS --------------------------------- */
+@media all and (min-width: 1000px) {
+  .introduction div{
+    width:80vw;
+  }
+  
+  .messageContainer {
+    height:76vh;
+  }
+
+  .TopicInfo{
+    margin: 2em 3em 0 2em;
+  }
+
+  .sportCategories img {
+    width:8vw;
+    Height:6vw;
+  }
+
+  .sportContainer {
+    height:45vh;
+  }
+
+  html {
+    font-size:80%;
+  }
+  
+}
+
+@media all and (min-width: 1280px) {
+  .introduction div{
+    width:50vw;
+  }
+
+  .messageContainer {
+    height:76vh;
+  }
+
+  .TopicInfo{
+    margin: 2em 3em 0 2em;
+  }
+
+  .sportCategories img {
+    width:8vw;
+    Height:6vw;
+  }
+
+  .sportContainer {
+    height:45vh;
+  }
+
+  html {
+    font-size:100%;
+  }
+  
+}
+
+@media all and (min-width: 1360px) {
+  .messageContainer {
+    height:77vh;
+  }
+
+  .TopicInfo{
+    margin: 2em 6em 0 2em;
+  }
+
+  .sportContainer {
+    height:48vh;
+  }
+
+  .sportCategories img {
+    width:8vw;
+    Height:8vw;
+  }
+
+  
+}
+
+@media all and (min-width: 1440px) {
+  .messageContainer {
+    height:78vh;
+  }
+
+  .TopicInfo{
+    margin: 2em 10em 0 2em;
+  }
+
+  .sportCategories img {
+    width:8vw;
+    Height:9vw;
+  }
+
+  
+}
+
+@media all and (min-width: 1600px) {
+  .messageContainer {
+    height:78vh;
+  }
+
+  .TopicInfo{
+    margin: 2em 10em 0 2em;
+  }
+
+  .sportCategories img {
+    width:8vw;
+    Height:10vw;
+  }
+
+  .sportContainer {
+    height:55vh;
+  }
+}
+
+@media all and (min-width: 1900px) {
+  .sportContainer {
+    height:60vh;
+  }
+}
+
+@media all and (min-width: 2500px) {
+  .sportCategories img {
+    width:8vw;
+    Height:8vw;
+  }
+
+  .sportContainer {
+    height:48vh;
+  }
+  html {
+    font-size:180%;
+  }
+}
+
+@media all and (min-width: 3400px) {
+  .sportCategories img {
+    width:8vw;
+    Height:8vw;
+  }
+
+  .sportContainer {
+    height:48vh;
+  }
+  html {
+    font-size:270%;
+  }
+}
+
