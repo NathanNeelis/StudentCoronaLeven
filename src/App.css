@@ -226,44 +226,34 @@ Persona's
 }
 
 
-
 /* ----------------------------------------------
-Sport
+TEMPLATE TOPIC PAGES
 ---------------------------------------------- */
-
-.sport {
+.Topic {
   background-color:black;
   scroll-snap-align: center;
   display:flex;
   justify-content: center;
   flex-direction: row;
-}
-
-.datavis {
-  width: 70vw;
-  height: 88vh;
-  margin: 3em 1em 3em 5em;
-  background: rgb(243,124,124);
-  background: linear-gradient(90deg, rgba(243,124,124,1) 0%, rgba(205,0,130,1) 100%);
-  border-radius: 1em;
+  /* width:100vw;
+  height:100vh; */
 }
 
 /* DIt IS RAAR. DE MARGIN VAN H2 EN P ZIJN NIET HETZEFLDE? */
-.datavisInfo{
+.TopicInfo{
   margin: 2em 10em 0 2em;
 }
 
-.datavis h2{
+.Topic h2{
   color:white;
 }
 
-.datavis p{
+.Topic p{
   color:white;
   padding-top:1em;
+  font-weight:100;
+  line-height: 1.4em;
 }
-
-
-
 
 /* MESSAGES */
 
@@ -272,7 +262,7 @@ Sport
   height:88vh;
   margin:3em 3em 3em 1em;
   border-radius: 1em;
-  background-color: #343434;
+  background-color: #1C1C1C;
 }
 
 .messages h3 {
@@ -292,26 +282,27 @@ Sport
 
 .singleMessage {
   margin:2em 2em 1em 2em;
-  background-color: white;
+  background-color: #2F2F2F;
   border-radius: .5em;
   position:relative;
 }
 
 .singleMessage h4{
   padding:2em 1em 1em 2em;
-  color:#343434;
+  color: white;
 }
 
 .singleMessage p{
   padding:0em 2em 1em 2em;
-  color:#343434;
+  color: white;
   line-height: 1.5em;
+  font-weight: 400;
 }
 
 .singleMessage .messageRight{
   width:1em;
   height:1em;
-  background-color:white;
+  background-color:#2F2F2F;
   position:absolute;
   transform: rotate(45deg);
   right: -.4em;
@@ -322,7 +313,7 @@ Sport
 .singleMessage .messageLeft{
   width:1em;
   height:1em;
-  background-color:white;
+  background-color:#2F2F2F;
   position:absolute;
   transform: rotate(45deg);
   left: -.4em;
@@ -331,7 +322,18 @@ Sport
 }
 
 
+/* ----------------------------------------------
+Sport
+---------------------------------------------- */
 
+.datavisSport {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(243,124,124);
+  background: linear-gradient(90deg, rgba(243,124,124,1) 0%, rgba(205,0,130,1) 100%);
+  border-radius: 1em;
+}
 
 /* SPORT CATEGORIES */
 
@@ -341,8 +343,6 @@ Sport
   flex-direction: column;
   align-items:center;
   margin: 3em 2em 0em 2em;
-  /* background-color:yellow; */
-  /* width:8vw; */
 }
 
 .notAllowed {
@@ -360,7 +360,7 @@ Sport
   flex-direction: row;
   align-items:center;
   flex-wrap:wrap;
-  width: 50vw;
+  width: 55vw;
   margin: 0 auto;
 }
 
@@ -402,3 +402,21 @@ Sport
 }
 
 /* ----------------------------  END Sport --------------------------------- */
+
+
+/* ----------------------------------------------
+Public Transport
+---------------------------------------------- */
+
+.datavisPT {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(202,99,252);
+  background: linear-gradient(45deg, rgba(202,99,252,1) 0%, rgba(68,0,205,1) 100%); 
+  border-radius: 1em;
+}
+
+
+
+/* ----------------------------  END Public Transport --------------------------------- */
