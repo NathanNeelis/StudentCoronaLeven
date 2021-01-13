@@ -12,6 +12,9 @@ export default function Navigation (props) {
                 <a href="#OV">
                     <li className={props.publicTransport ? 'active' : 'notactive'}><span>Openbaar vervoer</span></li>
                 </a> 
+                <a href="#SocialContact">
+                    <li className={props.contact ? 'active' : 'notactive'}><span>Sociaal contact</span></li>
+                </a> 
             </ul>
         </nav>
     </article>

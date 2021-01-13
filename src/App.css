@@ -13,6 +13,21 @@ body {
   font-family: Helvetica, sans-serif;
   color:#707070;
   font-size:1rem;
+
+}
+
+.wrapper {
+  position:absolute;
+  top:0;
+  left:0;
+  height:100vh;
+  width:100vw;
+  background: rgb(255,83,169);
+  background-image: linear-gradient(45deg, rgba(255,83,169,1) 0%, rgba(255,74,74,1) 99%, rgba(255,83,169,1) 100%);
+  /* background-image: linear-gradient(315deg,#cc6aa5,#3e91cc,#2dcca7); */
+  background-size: 600% 600%;
+  animation: 8s ease 0s infinite normal both running bg-move;
+  z-index: -4;
 }
 
 section {
@@ -22,7 +37,7 @@ section {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 800;
 }
 
 h2 {
@@ -44,6 +59,7 @@ nav {
   position: absolute;
   left: 2vw;
   top: 4vh;
+  z-index: 3;
 }
 
 nav ul {
@@ -105,8 +121,11 @@ Introduction
 ---------------------------------------------- */
 
 .introduction {
-  background-color:black;
+  background: url("./img/background.svg");
+  background-size: cover;
+  background-position: center;
   scroll-snap-align: center;
+  position:relative;
 }
 
 .introduction div{
@@ -118,12 +137,14 @@ Introduction
   padding:2em 2em 0 2em;
   text-align:center;
   font-size: 3em;
+  color:white;
 }
 
 .introduction p {
   padding: 1.5em 2em 2em 2em;
   text-align:center;
   line-height:1.5em;
+  color:white;
 }
 
 .introduction svg{
@@ -228,12 +249,19 @@ Persona's
   }
 }
 
-
+@keyframes bg-move {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 /* ----------------------------------------------
 TEMPLATE TOPIC PAGES
 ---------------------------------------------- */
 .Topic {
-  background-color:black;
+  background-color:#000000;
   scroll-snap-align: center;
   display:flex;
   justify-content: center;
@@ -332,7 +360,7 @@ Sport
   height: 88vh;
   margin: 3em 1em 3em 5em;
   background: rgb(243,124,124);
-  background: linear-gradient(90deg, rgba(243,124,124,1) 0%, rgba(205,0,130,1) 100%);
+  background: linear-gradient(190deg, rgba(243,124,124,1) 0%, rgba(205,0,130,1) 100%);
   border-radius: 1em;
 }
 
@@ -415,7 +443,7 @@ Public Transport
   height: 88vh;
   margin: 3em 1em 3em 5em;
   background: rgb(202,99,252);
-  background: linear-gradient(45deg, rgba(202,99,252,1) 0%, rgba(68,0,205,1) 100%); 
+  background: linear-gradient(190deg, rgba(202,99,252,1) 0%, rgba(68,0,205,1) 100%); 
   border-radius: 1em;
 }
 
@@ -424,6 +452,19 @@ Public Transport
 /* ----------------------------  END Public Transport --------------------------------- */
 
 
+/* ----------------------------------------------
+Social Contact
+---------------------------------------------- */
+.datavisSC {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(0,205,205);
+  background: linear-gradient(145deg, rgba(0,205,205,1) 0%, rgba(124,243,184,1) 100%);
+  border-radius: 1em;
+}
+
+/* ----------------------------  END Social Contact --------------------------------- */
 
 
 
@@ -519,6 +560,10 @@ Public Transport
 }
 
 @media all and (min-width: 1400px) {
+  .introduction div{
+    width:50vw;
+  }
+
   .messageContainer {
     height:76vh;
   }
@@ -556,7 +601,16 @@ Public Transport
 
 @media all and (min-width: 1900px) {
   .sportContainer {
-    height:60vh;
+    height:50vh;
+  }
+
+  .sportCategories img {
+    width:8vw;
+    Height:8vw;
+  }
+
+  html {
+    font-size:120%;
   }
 }
 
