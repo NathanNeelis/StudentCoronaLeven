@@ -18,7 +18,11 @@ export default function Sport (props) {
                 <p>Team- en contactsporten en individuele binnensporten zijn het populairst bij de jongvolwassenen (18 tot 25 jaar). Deelname aan deze sporten neemt sterk af met de leeftijd. In 2019 beoefende 27 procent van de 18- tot 25-jarigen minstens één team- of contactsport, onder 65-plussers is dat 2 procent. Individuele binnensporten werden door 41 procent van de 18- tot 25-jarigen beoefend en door 21 procent van de 65-plussers.</p>
             </div>
             <div className="sportContainer">
-                <SportCategories sport={Fitness} data='35%' legend='notAllowed' />
+                <div className="sportCategories"> 
+                    <div className="animatieTest"></div>
+                    <p>35%</p>
+                </div>
+                {/* <SportCategories sport={Fitness} data='35%' legend='notAllowed' /> */}
                 <SportCategories sport={Footbal} data='13%' legend='notAllowed' />
                 <SportCategories sport={Running} data='10%' />
                 <SportCategories sport={Swimming} data='4,4%' legend='notAllowed' />

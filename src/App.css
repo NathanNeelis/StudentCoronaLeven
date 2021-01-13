@@ -24,9 +24,8 @@ body {
   width:100vw;
   background: rgb(255,83,169);
   background-image: linear-gradient(45deg, rgba(255,83,169,1) 0%, rgba(255,74,74,1) 99%, rgba(255,83,169,1) 100%);
-  /* background-image: linear-gradient(315deg,#cc6aa5,#3e91cc,#2dcca7); */
   background-size: 600% 600%;
-  animation: 8s ease 0s infinite normal both running bg-move;
+  animation: 6s ease 0s infinite alternate both running bg-move;
   z-index: -4;
 }
 
@@ -486,7 +485,7 @@ Social Contact
     margin: 2em 3em 0 2em;
   }
 
-  .sportCategories img {
+  .sportCategories img, .animatieTest {
     width:8vw;
     Height:6vw;
   }
@@ -518,7 +517,7 @@ Social Contact
     margin: 2em 3em 0 2em;
   }
 
-  .sportCategories img {
+  .sportCategories img, .animatieTest {
     width:8vw;
     Height:4.8vw;
   }
@@ -551,7 +550,7 @@ Social Contact
     height:46vh;
   }
 
-  .sportCategories img {
+  .sportCategories img, .animatieTest {
     width:8vw;
     Height:6.5vw;
   }
@@ -572,7 +571,7 @@ Social Contact
     margin: 2em 4em 0 2em;
   }
 
-  .sportCategories img {
+  .sportCategories img, .animatieTest {
     width:8vw;
     Height:7vw;
   }
@@ -604,7 +603,7 @@ Social Contact
     height:50vh;
   }
 
-  .sportCategories img {
+  .sportCategories img, .animatieTest {
     width:8vw;
     Height:8vw;
   }
@@ -615,7 +614,7 @@ Social Contact
 }
 
 @media all and (min-width: 2500px) {
-  .sportCategories img {
+  .sportCategories img, .animatieTest {
     width:8vw;
     Height:7vw;
   }
@@ -629,7 +628,7 @@ Social Contact
 }
 
 @media all and (min-width: 3400px) {
-  .sportCategories img {
+  .sportCategories img, .animatieTest {
     width:8vw;
     Height:8vw;
   }
@@ -640,5 +639,27 @@ Social Contact
   html {
     font-size:270%;
   }
+
 }
 
+.animatieTest {
+  width: 9.5vw;
+  height: 9.5vw;
+  background-image:url(./img/sport-fitness-test.svg);
+  background-size: 305%;
+  background-repeat: no-repeat;
+}
+
+.animatieTest:hover{
+  animation: fitness-icon .5s steps(3) infinite;
+}
+
+@keyframes fitness-icon {
+  from {
+    background-position: 0;
+  }
+  to {
+    /* background-position: -24.39em; */
+    background-position: 148.8%;
+  }
+}
