@@ -31,7 +31,7 @@ function App() {
       }
 
       function leavePublicTransport(){
-        setPublicTransport(true)
+        setPublicTransport(false)
       }
 
 

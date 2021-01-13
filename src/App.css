@@ -509,18 +509,18 @@ Public Transport
   
 }
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1400px) {
   .messageContainer {
     height:78vh;
   }
 
   .TopicInfo{
-    margin: 2em 10em 0 2em;
+    margin: 2em 4em 0 2em;
   }
 
   .sportCategories img {
     width:8vw;
-    Height:9vw;
+    Height:7vw;
   }
 
   
