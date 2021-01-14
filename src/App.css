@@ -62,7 +62,8 @@ nav {
 }
 
 nav ul {
-  width: 11vw;
+  /* width: 11vw; */
+  /* margin-right:1em; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -84,6 +85,7 @@ nav ul li:hover {
   border-left: 3px solid #1F615F;
   color:#1F615F;
   background-color: rgba(255, 255, 255, 1);
+  padding-right: 1em;
   border-radius: 0 .5em .5em 0;
 }
 
@@ -716,8 +718,8 @@ Thuiswerken
 }
 
 .animatieFitness {
-  width: 8vw;
-  height: 8vw;
+  width: 6vw;
+  height: 6vw;
   background-image:url(./img/sport-fitness-test2.svg);
   background-size: 300%;
   background-repeat: no-repeat;
