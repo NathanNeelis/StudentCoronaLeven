@@ -62,7 +62,7 @@ nav {
 }
 
 nav ul {
-  width: 15vw;
+  width: 11vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -81,14 +81,14 @@ nav ul li {
 }
 
 nav ul li:hover {
-  border-left: 3px solid white;
-  color:white;
-  background-color: rgba(255, 255, 255, 0.3);
+  border-left: 3px solid #1F615F;
+  color:#1F615F;
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 0 .5em .5em 0;
 }
 
 .active {
-  border-left: 3px solid red;
+  border-left: 3px solid white;
   color:white;
 }
 
@@ -676,6 +676,11 @@ Thuiswerken
     Height:8vw;
   }
 
+  /* .animatieTest {
+    width:8vw;
+    height:8vw;
+  } */
+
   html {
     font-size:120%;
   }
@@ -710,16 +715,17 @@ Thuiswerken
 
 }
 
-.animatieTest {
-  width: 9vw;
-  height: 9vw;
-  background-image:url(./img/sport-fitness-test.svg);
-  background-size: 305%;
+.animatieFitness {
+  width: 8vw;
+  height: 8vw;
+  background-image:url(./img/sport-fitness-test2.svg);
+  background-size: 300%;
   background-repeat: no-repeat;
-  opacity: .5;
+  background-position: 0;
+  opacity: 1;
 }
 
-.animatieTest:hover{
+.animatieFitness:hover{
   animation: fitness-icon .5s steps(3) infinite;
 }
 
@@ -729,6 +735,6 @@ Thuiswerken
   }
   to {
     /* background-position: -24.39em; */
-    background-position: 148.8%;
+    background-position: 150%;
   }
 }

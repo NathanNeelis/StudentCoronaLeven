@@ -1,5 +1,6 @@
 import Message from './message';
 import VideoMessage from './messageVideo';
+import SportCategoriesAnimated from './sportCategorie-Animated';
 
 
 export default function PublicTransport (props) {
@@ -9,6 +10,26 @@ export default function PublicTransport (props) {
             <div className="TopicInfo">
                 <h2>Op het dieptepunt waren er in 2020 tot 90% minder OV check-ins dan het vorige jaar.</h2>
                 <p>In de tweede helft van maart 2020 is het dagelijks aantal instappers (check-ins) in het openbaar vervoer gedaald met bijna 90 procent ten opzichte van een vergelijkbare dag in 2019. Op 31 maart bedroeg het aantal check-ins 560 duizend, tegen 4,75 miljoen op een gemiddelde dinsdag in 2019. In verband met het coronavirus is het alleen nog toegestaan met het openbaar vervoer te reizen als het een noodzakelijke reis betreft, bijvoorbeeld vanwege een cruciaal beroep.</p>
+            </div>
+            <div className="sportContainer">
+                <SportCategoriesAnimated animation='animatieFitness' />
+                <SportCategoriesAnimated animation='animatieFitness' />
+                <SportCategoriesAnimated animation='animatieFitness' />
+                <SportCategoriesAnimated animation='animatieFitness' />
+                <SportCategoriesAnimated animation='animatieFitness' />
+                <SportCategoriesAnimated animation='animatieFitness' />
+                <SportCategoriesAnimated animation='animatieFitness' />
+                <SportCategoriesAnimated animation='animatieFitness' />
+            </div>
+            <div className="legend">
+                <div className="legend-Container">
+                    <div className="legend-NotAllowed"></div>
+                    <p>Verboden</p>
+                </div>
+                <div className="legend-Container">
+                    <div className="legend-Allowed"></div>
+                    <p>Toegestaan</p>
+                </div>
             </div>
         </article>
 
