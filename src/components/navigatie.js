@@ -15,6 +15,21 @@ export default function Navigation (props) {
                 <a href="#SocialContact">
                     <li className={props.contact ? 'active' : 'notactive'}><span>Sociaal contact</span></li>
                 </a> 
+                <a href="#ondernemers">
+                    <li className={props.ondernemers ? 'active' : 'notactive'}><span>Ondernemers</span></li>
+                </a> 
+                <a href="#vacation">
+                    <li className={props.vacation ? 'active' : 'notactive'}><span>Vakantie</span></li>
+                </a> 
+                <a href="#work">
+                    <li className={props.work ? 'active' : 'notactive'}><span>Werk & Inkomen</span></li>
+                </a> 
+                <a href="#uitgaven">
+                    <li className={props.uitgaven ? 'active' : 'notactive'}><span>Uitgaven</span></li>
+                </a> 
+                <a href="#workHome">
+                    <li className={props.workhome ? 'active' : 'notactive'}><span>Thuis werken</span></li>
+                </a> 
             </ul>
         </nav>
     </article>

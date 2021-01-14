@@ -465,8 +465,76 @@ Social Contact
 
 /* ----------------------------  END Social Contact --------------------------------- */
 
+/* ----------------------------------------------
+Ondernemers
+---------------------------------------------- */
+.datavisOndernemers {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(255,88,244);
+  background: linear-gradient(-130deg, rgba(255,88,244,1) 0%, rgba(255,135,97,1) 100%);
+  border-radius: 1em;
+}
+
+/* ----------------------------  END Ondernemers --------------------------------- */
 
 
+/* ----------------------------------------------
+Vacation
+---------------------------------------------- */
+.datavisVacation {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(202,99,252);
+  background: linear-gradient(190deg, rgba(202,99,252,1) 0%, rgba(68,0,205,1) 100%); 
+  border-radius: 1em;
+}
+
+/* ----------------------------  END Vacation --------------------------------- */
+
+/* ----------------------------------------------
+WORK
+---------------------------------------------- */
+.datavisWork {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(0,205,205);
+  background: linear-gradient(145deg, rgba(0,205,205,1) 0%, rgba(124,243,184,1) 100%);
+  border-radius: 1em;
+}
+
+/* ----------------------------  END Work --------------------------------- */
+
+/* ----------------------------------------------
+Uitgave
+---------------------------------------------- */
+.datavisUitgaven {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(243,124,124);
+  background: linear-gradient(190deg, rgba(243,124,124,1) 0%, rgba(205,0,130,1) 100%);
+  border-radius: 1em;
+}
+
+/* ----------------------------  END Uitgave --------------------------------- */
+
+/* ----------------------------------------------
+Thuiswerken
+---------------------------------------------- */
+.datavisWH {
+  width: 70vw;
+  height: 88vh;
+  margin: 3em 1em 3em 5em;
+  background: rgb(202,99,252);
+  background: linear-gradient(190deg, rgba(202,99,252,1) 0%, rgba(68,0,205,1) 100%); 
+  border-radius: 1em;
+}
+
+/* ----------------------------  END Thuiswerken --------------------------------- */
 
 
 /* ----------------------------  BREAK POINTS --------------------------------- */
@@ -485,7 +553,7 @@ Social Contact
     margin: 2em 3em 0 2em;
   }
 
-  .sportCategories img, .animatieTest {
+  .sportCategories img {
     width:8vw;
     Height:6vw;
   }
@@ -517,7 +585,7 @@ Social Contact
     margin: 2em 3em 0 2em;
   }
 
-  .sportCategories img, .animatieTest {
+  .sportCategories img {
     width:8vw;
     Height:4.8vw;
   }
@@ -550,7 +618,7 @@ Social Contact
     height:46vh;
   }
 
-  .sportCategories img, .animatieTest {
+  .sportCategories img {
     width:8vw;
     Height:6.5vw;
   }
@@ -571,7 +639,7 @@ Social Contact
     margin: 2em 4em 0 2em;
   }
 
-  .sportCategories img, .animatieTest {
+  .sportCategories img {
     width:8vw;
     Height:7vw;
   }
@@ -603,7 +671,7 @@ Social Contact
     height:50vh;
   }
 
-  .sportCategories img, .animatieTest {
+  .sportCategories img {
     width:8vw;
     Height:8vw;
   }
@@ -614,7 +682,7 @@ Social Contact
 }
 
 @media all and (min-width: 2500px) {
-  .sportCategories img, .animatieTest {
+  .sportCategories img {
     width:8vw;
     Height:7vw;
   }
@@ -628,7 +696,7 @@ Social Contact
 }
 
 @media all and (min-width: 3400px) {
-  .sportCategories img, .animatieTest {
+  .sportCategories img {
     width:8vw;
     Height:8vw;
   }
@@ -643,8 +711,8 @@ Social Contact
 }
 
 .animatieTest {
-  width: 9.5vw;
-  height: 9.5vw;
+  width: 9vw;
+  height: 9vw;
   background-image:url(./img/sport-fitness-test.svg);
   background-size: 305%;
   background-repeat: no-repeat;

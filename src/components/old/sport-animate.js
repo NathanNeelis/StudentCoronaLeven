@@ -7,9 +7,26 @@ import Boxing from '../img/sport5.svg';
 import Tennis from '../img/sport6.svg';
 import Cycling from '../img/sport7.svg';
 import Yoga from '../img/sport8.svg';
+import FitnessOne from '../img/sport-fitness1.svg';
+import FitnessTwo from '../img/sport-fitness2.svg';
+import FitnessThree from '../img/sport-fitness3.svg';
 import SportCategories from './sportCategories';
+import React, { useState } from 'react';
 
 export default function Sport (props) {
+    function animateFitnessEnter(){
+        const image = document.querySelector('#animateFitnessImage')
+        const url = 'http://localhost:3000'
+            if (image.src === url + FitnessOne){
+                image.src = FitnessTwo
+            } else if (image.src === url + FitnessTwo){
+                image.src = FitnessThree;
+            } else {
+                image.src = FitnessOne
+            }
+  
+    }
+
     return (
     <section id="sportSection" className="Topic">
         <article className="datavisSport">
@@ -18,7 +35,15 @@ export default function Sport (props) {
                 <p>Team- en contactsporten en individuele binnensporten zijn het populairst bij de jongvolwassenen (18 tot 25 jaar). Deelname aan deze sporten neemt sterk af met de leeftijd. In 2019 beoefende 27 procent van de 18- tot 25-jarigen minstens één team- of contactsport, onder 65-plussers is dat 2 procent. Individuele binnensporten werden door 41 procent van de 18- tot 25-jarigen beoefend en door 21 procent van de 65-plussers.</p>
             </div>
             <div className="sportContainer">
-                <SportCategories sport={Fitness} data='35%' legend='notAllowed' />
+                {/* <div className="sportCategories"> 
+                    <div className="animatieTest"></div>
+                    <p>35%</p>
+                </div> */}
+                <div className="sportCategories" onMouseMove={animateFitnessEnter}> 
+                    <img src={FitnessOne} alt='Sport icon' id='animateFitnessImage' />
+                    <p>35%</p>
+                </div>
+                {/* <SportCategories sport={Fitness} data='35%' legend='notAllowed' /> */}
                 <SportCategories sport={Footbal} data='13%' legend='notAllowed' />
                 <SportCategories sport={Running} data='10%' />
                 <SportCategories sport={Swimming} data='4,4%' legend='notAllowed' />
