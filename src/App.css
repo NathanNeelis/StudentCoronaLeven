@@ -29,6 +29,26 @@ body {
   z-index: -4;
 }
 
+.SvGbackground-left{
+  width:30vw;
+  position:absolute;
+  bottom:0;
+  left:-15vw;
+  z-index:-2;
+  animation: bgLeft 6s infinite;
+}
+
+.SvGbackground-right{
+  height:100vh;
+  position:absolute;
+  bottom:0;
+  /* right:-21.5vw; */
+  right:-25vw;
+  z-index:-2;
+  animation: bgRight 6s infinite;
+}
+
+
 section {
   width: 100vw;
   height: 100vh;
@@ -49,6 +69,7 @@ h2 {
   overflow-y: scroll;
   overflow-x:hidden;
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 /* ----------------------------------------------
@@ -62,8 +83,7 @@ nav {
 }
 
 nav ul {
-  /* width: 11vw; */
-  /* margin-right:1em; */
+  width: 15vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -86,7 +106,7 @@ nav ul:hover li {
   border-left: 3px solid #1F615F;
   color:#1F615F;
   background-color: rgba(255, 255, 255, 1);
-  padding-right: 1em;
+  /* padding-right: 1em; */
   border-radius: 0 .5em .5em 0;
 }
 
@@ -116,7 +136,7 @@ nav ul:hover li span {
   
 }
 nav ul li:hover span {
-  color:#1F615F;
+  color:rgba(205,0,130,1)
   /* font-weight:800; */
 }
 
@@ -130,9 +150,9 @@ Introduction
 ---------------------------------------------- */
 
 .introduction {
-  background: url("./img/background.svg");
-  background-size: cover;
-  background-position: center;
+  /* background: url("./img/background.svg"); */
+  /* background-size: cover;
+  background-position: center; */
   scroll-snap-align: center;
   position:relative;
 }
@@ -171,6 +191,7 @@ Persona's
 .persona h2{
   text-align:center;
   margin-top:4em;
+  color:white;
 
 }
 
@@ -196,40 +217,40 @@ Persona's
 }
 
 .containerNathan h3 {
-  color: #1F615F;
+  color: white;
 }
 
 .personaArthur {
   width:4em;
-  border: 3px solid #76ABFF;
-  background-color: #76ABFF;
+  border: 3px solid #1F615F;
+  background-color:#1F615F;
   border-radius:50%;
 }
 
 .containerArthur h3 {
-  color: #76ABFF;
+  color: white;
 }
 
 .personaDenise {
   width:4em;
-  border: 3px solid #FF76EA;
-  background-color: #FF76EA;
+  border: 3px solid #1F615F;
+  background-color:#1F615F;
   border-radius:50%;
 }
 
 .containerDenise h3 {
-  color: #FF76EA;
+  color: white;
 }
 
 .personaJustin {
   width:4em;
-  border: 3px solid #FFAB76;
-  background-color: #FFAB76;
+  border: 3px solid #1F615F;
+  background-color:#1F615F;
   border-radius:50%;
 }
 
 .containerJustin h3 {
-  color: #FFAB76;
+  color: white;
 }
 
 /* ----------------------------  END Persona's --------------------------------- */
@@ -265,6 +286,52 @@ Persona's
   100% {
     background-position: 0% 50%;
   }
+}
+
+@keyframes bgLeft {
+
+	0% {
+    transform: translateY(40px);
+    transform: scale(1)
+  }
+  25% {
+    
+  }
+	50% {
+    transform: translateY(0px);
+    transform: translateX(20px);
+    transform: scale(1.2)
+  }
+  75% {
+		
+	}
+	100% {
+    transform: translateY(40px);
+    transform: scale(1)
+	}
+}
+
+@keyframes bgRight {
+
+	0% {
+    transform: translateY(20px);
+    transform: scale(1.1)
+  }
+  25% {
+    
+  }
+	50% {
+    transform: translateY(0px);
+    transform: translateX(10px);
+    transform: scale(1.15)
+  }
+  75% {
+		
+	}
+	100% {
+    transform: translateY(20px);
+    transform: scale(1.1)
+	}
 }
 /* ----------------------------------------------
 TEMPLATE TOPIC PAGES
@@ -390,13 +457,14 @@ Sport
 .sportCategories img {
   width:8vw;
   Height:9vw;
+  
 }
 
 .sportContainer {
   display:flex;
   justify-content: center;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   flex-wrap:wrap;
   width: 55vw;
   height:48vh;
@@ -410,7 +478,6 @@ Sport
   justify-content: flex-end;
   flex-direction: row;
   align-items:center;
-  /* background-color:yellow; */
   width:100%;
   padding: 2em 4vw 1em 0em;
 }
@@ -726,13 +793,14 @@ Thuiswerken
 }
 
 .animatieFitness {
-  width: 6vw;
-  height: 6vw;
+  width: 7vw;
+  height: 7vw;
   background-image:url(./img/sport-fitness-test2.svg);
   background-size: 300%;
   background-repeat: no-repeat;
   background-position: 0;
   opacity: 1;
+  /* background-color:yellow; */
 }
 
 .animatieFitness:hover{

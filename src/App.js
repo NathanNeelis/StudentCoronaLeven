@@ -99,6 +99,7 @@ function App() {
   return (
     <div>
       <div className="wrapper">
+
         <Navigation 
           introduction={intro} 
           sport={sport} 
@@ -113,6 +114,7 @@ function App() {
         <div className="scroll-container">
           <div onMouseEnter={enterIntroduction} onMouseLeave={leaveIntroduction}>
             <Intro />
+            
           </div>
           <div onMouseEnter={enterSport} onMouseLeave={leaveSport}>
             <Sport />
