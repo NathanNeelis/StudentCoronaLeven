@@ -1,5 +1,3 @@
-import ReactPlayer from "react-player";
-
 export default function VideoMessage (props) {
     return (
     <div className="singleMessage">

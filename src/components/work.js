@@ -1,23 +1,39 @@
 import Message from './message';
-// import VideoMessage from './messageVideo';
+import MessageImage from './messageImage'
+import Monitor from '../img/monitor.jpg';
+import AvatarNathan from '../img/nathan.svg'
+import AvatarDenise from '../img/denise.svg'
+import AvatarArthur from '../img/arthur.svg'
+import AvatarJustin from '../img/justin.svg'
 
 export default function Work (props) {
     return (
     <section id="work" className="Topic">
         <article className="datavisWork">
             <div className="TopicInfo">
-                <h2>De afname van betaald werkende jongeren van 15 tot 25 jaar was in februari 1.4 miljoen.</h2>
-                <p>Steeds meer jongeren raken hun (bij)baan kwijt als gevolg van de Coronacrisis</p>
+                <h2>Is de bodem van jouw ome DUO al in zicht?</h2>
+                <p></p>
             </div>
         </article>
 
         <article className="messages">
             <h3>Wat vinden wij?</h3>
             <div className="messageContainer">
-                <Message name={Arthur} message={messageArthur} side='messageRight' />
-                <Message name={Denise} message={messageDenise} side='messageLeft' />
-                <Message name={Justin} message={messageJustin} side='messageRight' />
-                <Message name={Nathan} message={messageNathan} side='messageLeft' />
+                <Message src={AvatarDenise} name={Denise} message={messageOne} side='messageRight' />
+                <MessageImage src={AvatarDenise} name={Denise} message={messageTwo} side='messageleft' image={Monitor} alt="Mountainbike image" />
+                <Message src={AvatarArthur} name={Arthur} message={messageThree} side='messageRight' />
+                <Message src={AvatarArthur} name={Arthur} message={messageFour} side='messageLeft' />
+                <Message src={AvatarNathan} name={Nathan} message={messageFive} side='messageRight' />
+                <Message src={AvatarJustin} name={Justin} message={messageSix} side='messageLeft' />
+                <Message src={AvatarDenise} name={Denise} message={messageSeven} side='messageRight' />
+                <Message src={AvatarArthur} name={Arthur} message={messageEight} side='messageLeft' />
+                <Message src={AvatarNathan} name={Nathan} message={messageNine} side='messageRight' />
+                <Message src={AvatarArthur} name={Arthur} message={messageTen} side='messageLeft' />
+                <Message src={AvatarArthur} name={Arthur} message={messageEleven} side='messageRight' />
+                <Message src={AvatarDenise} name={Denise} message={messageTwelve} side='messageLeft' />
+                <Message src={AvatarArthur} name={Arthur} message={messageThirteen} side='messageRight' />
+                <Message src={AvatarNathan} name={Nathan} message={messageFourteen} side='messageLeft' />
+
             </div>
         </article> 
     </section>
@@ -26,13 +42,21 @@ export default function Work (props) {
 
 
 const Arthur = 'Arthur';
-const messageArthur = 'Doordat ik muziek maak voor mijn werk kon ik dit gelukkig thuis doen. In mijn geval was dit juist fijner, nu kon ik namelijk nog meer muziek maken doordat we ook geen les hadden op school. Het enige probleem was dat het moeilijker was om samenwerkingen aan te gaan in het echt. Normaliter gingen we dan samen de studio in, maar dit doen we nu digitaal.';
-
 const Denise = 'Denise';
-const messageDenise = 'De december lockdown is de eerste waarin ik niet doorbetaald krijg. Pfoe ik weet nog niet hoe ik volgende maand daarmee rond ga komen. Ook wel echt klaar met die lelijke 1,5 meter hesjes man😫';
-
 const Justin = 'Justin';
-const messageJustin = 'Sinds ik begon met studeren ben ik gestopt met werken en ik heb ook geen bijbaan meer gehad sinds die tijd. Voor mij is er eigenlijk niks veranderd omdat nog steeds gewoon mijn stufi krijg. Al zou ik het wel fijn vinden om mijn vorige ICT baan nu vanuit te kunnen doen, net als hoe ik nu studeer. 👨‍💻';
-
 const Nathan = 'Nathan';
-const messageNathan = 'Het afgelopen jaar heb ik bijna niet kunnen werken. Dit betekend voor mij dat er niet genoeg geld binnenkomt voor de huur en eten. Dit heeft een hoop stress gegeven waarin ik ook veel op zoek ben geweest naar een alternatieve bijbaan die ook met mijn opleiding te combineren was. Maar dat is verdomd lastig in Corona tijd!';
+
+const messageOne = 'Ben benieuwd of we deze keer open blijven.. Wordt een duur maandje anders..';
+const messageTwo = 'Foto Denise';
+const messageThree = 'Mijn album is goedgekeurd 👌🏻🤑';
+const messageFour = 'Dus ik vind alles best haha, klote wel voor jou @Denise';
+const messageFive = '🥳';
+const messageSix = 'Mijn stufi is ook nog goedgekeurd 😅';
+const messageSeven = 'Hahhahaha';
+const messageEight = 'Haha Ome DUO laat ons nooit in de steek';
+const messageNine = 'En ik me maar zorgen maken over of ik de huur wel kan betalen 🥺';
+const messageTen = 'Verschil moet er wezen 😉';
+const messageEleven = 'Maar @Denise krijgt dat trampolinepark van je nog wel een beetje subsidie dan?';
+const messageTwelve = 'Deze maand helemaal 0. Probeer af en toe nog een beetje mails te beantwoorden maar dat zijn dan ook wel alle uurtjes die ik pak';
+const messageThirteen = 'Aah okee';
+const messageFourteen = 'En de overheid voor iedereen maar subsidies vrij maken, maar arme studenten vissen mooi achter het net.';

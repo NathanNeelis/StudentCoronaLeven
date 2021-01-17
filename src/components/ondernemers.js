@@ -1,23 +1,34 @@
 import Message from './message';
-// import VideoMessage from './messageVideo';
+import MessageImage from './messageImage';
+import MessageVideo from './messageVideo'
+import MTB from '../img/mtb.jpg';
+import AvatarNathan from '../img/nathan.svg'
+import AvatarDenise from '../img/denise.svg'
+import AvatarArthur from '../img/arthur.svg'
+import AvatarJustin from '../img/justin.svg'
+
 
 export default function Ondernemers (props) {
     return (
     <section id="ondernemers" className="Topic">
         <article className="datavisOndernemers">
             <div className="TopicInfo">
-                <h2>Consumenten besteden in 2020 minder geld (6,9%) aan diensten zoals het theater of de sportschool, maar juist meer (2,8%) aan voeding en genotsmiddelen.</h2>
-                <p>Bezuiniging binnenlandse consumptie door huishoudens.</p>
+                <h2>De centjes van papa en mama: Hoeveel geld geven zij dit jaar uit?</h2>
+                <p></p>
             </div>
         </article>
 
         <article className="messages">
             <h3>Wat vinden wij?</h3>
             <div className="messageContainer">
-                <Message name={Arthur} message={messageArthur} side='messageRight' />
-                <Message name={Denise} message={messageDenise} side='messageLeft' />
-                <Message name={Justin} message={messageJustin} side='messageRight' />
-                <Message name={Nathan} message={messageNathan} side='messageLeft' />
+                <Message src={AvatarNathan} name={Nathan} message={messageOne} side='messageRight' />
+                <Message src={AvatarArthur} name={Arthur} message={messageTwo} side='messageLeft' />
+                <Message src={AvatarDenise} name={Denise} message={messageThree} side='messageRight' />
+                <Message src={AvatarJustin} name={Justin} message={messageFour} side='messageLeft' />
+                <Message src={AvatarArthur} name={Arthur} message={messageFive} side='messageRight' />
+                <Message src={AvatarNathan} name={Nathan} message={messageSix} side='messageLeft' />
+                <MessageVideo src={AvatarNathan} name={Nathan} message={messageSeven} side='messageRight' url='www.youtube.com/watch?v=dO_q2qjgkfw' />
+                <MessageImage src={AvatarDenise} name={Denise} message={messageEight} side='messageRight' image={MTB} alt="Mountainbike image" />
             </div>
         </article> 
     </section>
@@ -26,13 +37,15 @@ export default function Ondernemers (props) {
 
 
 const Arthur = 'Arthur';
-const messageArthur = 'to do';
-
 const Denise = 'Denise';
-const messageDenise = 'to do';
-
 const Justin = 'Justin';
-const messageJustin = 'to do';
-
 const Nathan = 'Nathan';
-const messageNathan = 'to do';
+
+const messageOne = 'Ik heb net een Amazon Prime abbo afgesloten. Ga nu toch niet meer naar de bioscoop!';
+const messageTwo = 'Ik wacht wel weer tot ik naar de bios mag.';
+const messageThree = 'Avondje theater lijkt me wel weer lachen. Weer is mensen in het echt zien!';
+const messageFour = 'Ja of weer is uit eten. Dat bestellen wordt ook wat saai..';
+const messageFive = 'Tikt flink aan al die Uber Eats bestellingen...';
+const messageSix = 'Je kan ook zelf eens culinair doen 🍗🍗🍖';
+const messageSeven = 'Foto eten';
+const messageEight = 'Foto eten';

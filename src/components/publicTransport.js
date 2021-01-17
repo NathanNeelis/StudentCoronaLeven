@@ -1,5 +1,4 @@
 import Message from './message';
-import VideoMessage from './messageVideo';
 import IframeMessage from './messageIframe';
 import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
@@ -28,7 +27,6 @@ export default function PublicTransport (props) {
                 <Message src={AvatarJustin} name={Justin} message={messageSix} side='messageLeft' />
                 <Message src={AvatarDenise} name={Denise} message={messageSeven} side='messageRight' />
                 <IframeMessage src={AvatarNathan} name={Nathan} message={messageEight} side='messageLeft' url='https://giphy.com/embed/12E3pQ4coQ4EOA' title='Scooter' />
-                {/* <Message src={AvatarNathan} name={Nathan} message={messageEight} side='messageLeft' /> */}
                 <Message src={AvatarNathan} name={Nathan} message={messageNine} side='messageRight' />
                 <Message src={AvatarArthur} name={Arthur} message={messageTen} side='messageLeft' />
             </div>
