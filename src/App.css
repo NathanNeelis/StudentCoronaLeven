@@ -45,7 +45,7 @@ body {
   /* right:-21.5vw; */
   right:-25vw;
   z-index:-2;
-  animation: bgRight 6s infinite;
+  animation: bgRight 5s infinite;
 }
 
 
