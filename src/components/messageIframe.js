@@ -8,8 +8,7 @@ export default function VideoMessage (props) {
            <h4>{props.name}</h4> 
         </div> 
         {/* <p>{props.message}</p> */}
-        <ReactPlayer url={props.url} width='100%' height='24vh' controls={true} />
-        <div className={props.side}></div>
+        <iframe src={props.url} frameBorder="0" alt='hello' className='gif' title={props.title} />
     </div>
     );
 }
