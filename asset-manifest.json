@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/StudentCoronaLeven/static/css/main.ed0500a2.chunk.css",
-    "main.js": "/StudentCoronaLeven/static/js/main.eb75553a.chunk.js",
-    "main.js.map": "/StudentCoronaLeven/static/js/main.eb75553a.chunk.js.map",
+    "main.css": "/StudentCoronaLeven/static/css/main.23e232ab.chunk.css",
+    "main.js": "/StudentCoronaLeven/static/js/main.3d883f03.chunk.js",
+    "main.js.map": "/StudentCoronaLeven/static/js/main.3d883f03.chunk.js.map",
     "runtime-main.js": "/StudentCoronaLeven/static/js/runtime-main.c52cf524.js",
     "runtime-main.js.map": "/StudentCoronaLeven/static/js/runtime-main.c52cf524.js.map",
     "static/js/2.f52614c4.chunk.js": "/StudentCoronaLeven/static/js/2.f52614c4.chunk.js",
@@ -10,11 +10,14 @@
     "static/js/3.90ab326a.chunk.js": "/StudentCoronaLeven/static/js/3.90ab326a.chunk.js",
     "static/js/3.90ab326a.chunk.js.map": "/StudentCoronaLeven/static/js/3.90ab326a.chunk.js.map",
     "index.html": "/StudentCoronaLeven/index.html",
-    "static/css/main.ed0500a2.chunk.css.map": "/StudentCoronaLeven/static/css/main.ed0500a2.chunk.css.map",
+    "static/css/main.23e232ab.chunk.css.map": "/StudentCoronaLeven/static/css/main.23e232ab.chunk.css.map",
     "static/js/2.f52614c4.chunk.js.LICENSE.txt": "/StudentCoronaLeven/static/js/2.f52614c4.chunk.js.LICENSE.txt",
     "static/media/arthur.a72afff9.svg": "/StudentCoronaLeven/static/media/arthur.a72afff9.svg",
+    "static/media/datavis-social.1281f6e6.svg": "/StudentCoronaLeven/static/media/datavis-social.1281f6e6.svg",
     "static/media/denise.28c1c40e.svg": "/StudentCoronaLeven/static/media/denise.28c1c40e.svg",
     "static/media/justin.60437bbf.svg": "/StudentCoronaLeven/static/media/justin.60437bbf.svg",
+    "static/media/monitor.e21229c3.jpg": "/StudentCoronaLeven/static/media/monitor.e21229c3.jpg",
+    "static/media/mtb.cc36a63d.jpg": "/StudentCoronaLeven/static/media/mtb.cc36a63d.jpg",
     "static/media/nathan.f65dae20.svg": "/StudentCoronaLeven/static/media/nathan.f65dae20.svg",
     "static/media/App.css": "/StudentCoronaLeven/static/media/sport-fitness-test2.50e470a7.svg",
     "static/media/sport1.7feb5e11.svg": "/StudentCoronaLeven/static/media/sport1.7feb5e11.svg",
@@ -29,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.c52cf524.js",
     "static/js/2.f52614c4.chunk.js",
-    "static/css/main.ed0500a2.chunk.css",
-    "static/js/main.eb75553a.chunk.js"
+    "static/css/main.23e232ab.chunk.css",
+    "static/js/main.3d883f03.chunk.js"
   ]
 }
