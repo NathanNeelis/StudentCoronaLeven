@@ -11,18 +11,17 @@ GIFJE concept
 For [In60Secons](https://www.in60seconds.nl/) we will be making a new visualisation of (a part off) the [CBS webpage](https://www.cbs.nl/nl-nl/dossier/cbs-cijfers-coronacrisis) filled with data about the Corona crisis. The purpose of this visualisation is to inform the reader about the complex data in a way that everyone can understand.
 
 ### Intro
-The year 2020 has been hard on us all. The Corona Virus spread across the world in record time and effected alot of lives. 
-The CBS gathered alot of information on how this effected everyones live in all possible ways and piled all this info onto an webpage.  
-We processed this data and found a story about how the lives off four students has been changed, want to know more? Read on.. !
+The year 2020 has been hard on us all. The Corona Virus spread across the world in record time and effected alot of lives. The CBS gathered alot of information on how this effected everyones live in all possible ways and piled all this info onto an webpage. We processed this data and found a story about how the lives off four students has been changed, want to know more? Read on.. !
 
 ### Concept
 These days everyone is effected by the Corona one way, or another. But there isn't a lot known about how the Corona virus effects the lives of student. 
 On our webpage you can read our stories on how the Corona effected our lives and our studies. Together with datavisualisations our story is visualised to tell our story and inform all readers how the lives of a few students has been changed by this awfull virus.
   
-### Features
-#### ReactJS
+
+### ReactJS
 This project has been made with ReactJS. The reason for this is the amount of reusable components. Another is the flexible use of data input might it accur later on in the project. At this time I am not sure how much data I need to fetch or how to use this. But ReactJS allows an easy use of data fetching in smaller components.
 
+### Features
 #### Datavisualisations
 For each topic we inform the reader with data transformed in understandable visualisations.
 -> Gif for datavisualisations
@@ -70,10 +69,10 @@ For each topic we give insights in the lives of these four students by showing t
 
 ### Resources & acknowledgements
 
-**Data**
+**Data**  
 [CBS Corona numbers](https://www.cbs.nl/nl-nl/dossier/cbs-cijfers-coronacrisis)  
 
-**Datavisulazation**
+**Datavisulazation**  
 [Book: Data Visualisation](https://www.bookdepository.com/Data-Visualisation-Andy-Kirk/9781526468925) Andy Kirk  
   
 **Code resources**  
