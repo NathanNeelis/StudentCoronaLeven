@@ -1,7 +1,7 @@
 import Message from './message';
 import MessageImage from './messageImage';
 import MessageVideo from './messageVideo'
-import MTB from '../img/mtb.jpg';
+import Sushi from '../img/sushi.png';
 import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
@@ -28,7 +28,7 @@ export default function Ondernemers (props) {
                 <Message src={AvatarArthur} name={Arthur} message={messageFive} side='messageRight' />
                 <Message src={AvatarNathan} name={Nathan} message={messageSix} side='messageLeft' />
                 <MessageVideo src={AvatarNathan} name={Nathan} message={messageSeven} side='messageRight' url='www.youtube.com/watch?v=dO_q2qjgkfw' />
-                <MessageImage src={AvatarDenise} name={Denise} message={messageEight} side='messageRight' image={MTB} alt="Mountainbike image" />
+                <MessageImage src={AvatarDenise} name={Denise} message={messageEight} side='messageRight' image={Sushi} alt="Sushi image" />
             </div>
         </article> 
     </section>
@@ -47,5 +47,5 @@ const messageThree = 'Avondje theater lijkt me wel weer lachen. Weer is mensen i
 const messageFour = 'Ja of weer is uit eten. Dat bestellen wordt ook wat saai..';
 const messageFive = 'Tikt flink aan al die Uber Eats bestellingen...';
 const messageSix = 'Je kan ook zelf eens culinair doen 🍗🍗🍖';
-const messageSeven = 'Foto eten';
-const messageEight = 'Foto eten';
+const messageSeven = '';
+const messageEight = '';

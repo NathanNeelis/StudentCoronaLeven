@@ -15,7 +15,7 @@ export default function Sport (props) {
                 <h2>Hee student! Sport jij al illegaal of is jouw sport nog toegestaan?</h2>
                 <p></p>
             </div>
-            {/* <SportContainer /> */}
+            <SportContainer />
         </article>
 
         <article className="messages">

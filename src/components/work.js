@@ -1,6 +1,6 @@
 import Message from './message';
 import MessageImage from './messageImage'
-import Monitor from '../img/monitor.jpg';
+import Rutte from '../img/rutte.png';
 import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
@@ -20,7 +20,7 @@ export default function Work (props) {
             <h3>Wat vinden wij?</h3>
             <div className="messageContainer">
                 <Message src={AvatarDenise} name={Denise} message={messageOne} side='messageRight' />
-                <MessageImage src={AvatarDenise} name={Denise} message={messageTwo} side='messageleft' image={Monitor} alt="Mountainbike image" />
+                <MessageImage src={AvatarDenise} name={Denise} message={messageTwo} side='messageleft' image={Rutte} alt="Rutte sticker" />
                 <Message src={AvatarArthur} name={Arthur} message={messageThree} side='messageRight' />
                 <Message src={AvatarArthur} name={Arthur} message={messageFour} side='messageLeft' />
                 <Message src={AvatarNathan} name={Nathan} message={messageFive} side='messageRight' />
@@ -47,7 +47,7 @@ const Justin = 'Justin';
 const Nathan = 'Nathan';
 
 const messageOne = 'Ben benieuwd of we deze keer open blijven.. Wordt een duur maandje anders..';
-const messageTwo = 'Foto Denise';
+const messageTwo = '';
 const messageThree = 'Mijn album is goedgekeurd 👌🏻🤑';
 const messageFour = 'Dus ik vind alles best haha, klote wel voor jou @Denise';
 const messageFive = '🥳';
