@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 350" style="enable-background:new 0 0 500 350;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'HelveticaNeue-Medium';}
+	.st3{font-size:22px;}
+	.st4{font-size:18px;}
+	.st5{opacity:0.2;fill:none;stroke:#FFFFFF;stroke-width:2;enable-background:new    ;}
+	.st6{fill:#DDB7FF;}
+	.st7{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+	.st8{fill:#B66DE7;}
+</style>
+<g id="Group_13426" transform="translate(-689 -595.26)">
+	<path id="Path_13821" class="st0" d="M927.1,663"/>
+	<text transform="matrix(1 0 0 1 883.268 635.7009)" class="st1 st2 st3">Meisjes</text>
+	<path id="Path_13820" class="st1" d="M1080,698"/>
+	<path id="Path_13822" class="st1" d="M902.2,698"/>
+	<path id="Path_13823" class="st1" d="M902.2,698"/>
+	<path id="Path_1023" class="st1" d="M994.3,694"/>
+	<path id="Path_13824" class="st1" d="M1139.3,698"/>
+	<path id="Path_13825" class="st1" d="M961.4,698"/>
+	<path id="Path_13826" class="st1" d="M1020.7,698"/>
+	<text transform="matrix(1 0 0 1 1058.7849 681.461)" class="st1 st2 st4">30%</text>
+	<text transform="matrix(1 0 0 1 896.654 681.461)" class="st1 st2 st4">0</text>
+	<text transform="matrix(1 0 0 1 1000.193 681.461)" class="st1 st2 st4">20%</text>
+	<text transform="matrix(1 0 0 1 1118.064 681.461)" class="st1 st2 st4">40%</text>
+	<text transform="matrix(1 0 0 1 941.805 681.461)" class="st1 st2 st4">10%</text>
+	<path id="Path_13812" class="st5" d="M1080.3,691.5v234.3"/>
+	<path id="Path_13813" class="st5" d="M1139.6,691.5v234.3"/>
+	<path id="Path_13814" class="st5" d="M961.8,691.5v234.3"/>
+	<path id="Path_13815" class="st5" d="M1021.1,691.5v234.3"/>
+	<text transform="matrix(1 0 0 1 750.004 728.829)" class="st1 st2 st3">Vakkenvullers</text>
+	<rect id="Rectangle_1089" x="902.2" y="698.5" class="st6" width="129.9" height="42.7"/>
+	<text transform="matrix(1 0 0 1 689.284 774.855)" class="st1 st2 st3">Kassamedewerkers</text>
+	<rect id="Rectangle_1088" x="902.5" y="745.5" class="st6" width="88.1" height="42.7"/>
+	<text transform="matrix(1 0 0 1 787.096 820.88)" class="st7 st2 st3">Verkopers</text>
+	<rect id="Rectangle_1087" x="902.5" y="792.5" class="st8" width="77.3" height="41.4"/>
+	<text transform="matrix(1 0 0 1 753.26 868.14)" class="st7 st2 st3">Barpersoneel</text>
+	<path id="Path_13816" class="st8" d="M967.1,838.5v41.4h-63.9v-41.4H967.1z"/>
+	<text transform="matrix(1 0 0 1 768.396 915.166)" class="st7 st2 st3">Keukenhulp</text>
+	<path id="Path_13817" class="st8" d="M935.1,884.5v41.4h-32.7v-41.4H935.1z"/>
+	<path id="Path_13819" class="st5" d="M902.5,691.5v234.3"/>
+</g>
+</svg>
