@@ -28,7 +28,7 @@ export default function Intro (props) {
         </div>
             <div className="ti0">
                 <h1 className="title">
-                Het leven van een student in corona
+                Corona in je studententijd
                 </h1>
                 <p className="intro">
                 2020 was een bizar jaar met veel bijzondere omstandigheden. Mensen moesten thuis werken, de horeca ging dicht en er waren weinig mogelijkheden voor sport, sociaal contact en gezelligheid. Studenten zaten dagen thuis voor hun lessen, stage en huiswerk. Hieronder leest u wat wij van de verschillende gebeurtenissen vonden, ook wel : Het leven van een student in corona.

@@ -6,6 +6,7 @@ import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
 import AvatarJustin from '../img/justin.svg'
+import BubblePlot from '../img/bubble-plot.svg'
 
 
 export default function Ondernemers (props) {
@@ -14,7 +15,10 @@ export default function Ondernemers (props) {
         <article className="datavisOndernemers">
             <div className="TopicInfo">
                 <h2>De centjes van papa en mama: Hoeveel geld geven zij dit jaar uit?</h2>
-                <p></p>
+                <p>Gemiddelde uitgaves van huishoudens</p>
+            </div>
+            <div className="OndernemersContainer">
+                <img src={BubblePlot} alt="Bubble plot" className="OndernemersVisual" />
             </div>
         </article>
 

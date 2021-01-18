@@ -11,9 +11,9 @@ export default function SocialContact (props) {
         <article className="datavisSC">
             <div className="TopicInfo">
                 <h2>Kom jij je scherm nog uit? Of zijn je docenten ondertussen je beste matties?</h2>
-                <p></p>
+                <p>Als 15 tot 25 jarige zie je wekelijks:</p>
             </div>
-            {/* <SocialVisual /> */}
+            <SocialVisual />
         </article>
 
         <article className="messages">

@@ -5,6 +5,7 @@ import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
 import AvatarJustin from '../img/justin.svg'
+import WorkVisual from './work-visual'
 
 export default function Work (props) {
     return (
@@ -12,8 +13,9 @@ export default function Work (props) {
         <article className="datavisWork">
             <div className="TopicInfo">
                 <h2>Is de bodem van jouw ome DUO al in zicht?</h2>
-                <p></p>
+                <p>Steeds meer jongeren raken hun (bij)baan kwijt als gevolg van de Coronacrisis</p>
             </div>
+            <WorkVisual />
         </article>
 
         <article className="messages">

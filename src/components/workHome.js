@@ -6,6 +6,7 @@ import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
 import AvatarJustin from '../img/justin.svg'
+import HomeWorkVisual from './workHome-visual'
 
 
 export default function WorkHome (props) {
@@ -14,8 +15,9 @@ export default function WorkHome (props) {
         <article className="datavisWH">
             <div className="TopicInfo">
                 <h2>Altijd maar zeuren dat je thuis wil werken, nu je zin?</h2>
-                <p></p>
+                <p>Deze topfuncties kunnen gemakkelijk thuis werken. Welke heb jij als studenten bijbaantje gehad?</p>
             </div>
+            <HomeWorkVisual />
         </article>
 
         <article className="messages">
