@@ -116,17 +116,14 @@ function App() {
             <Intro />
             
           </div>
+          <div onMouseEnter={enterContact} onMouseLeave={leaveContact}>
+            <SocialContact />
+          </div>
           <div onMouseEnter={enterSport} onMouseLeave={leaveSport}>
             <Sport />
           </div>
           <div onMouseEnter={enterPublicTransport} onMouseLeave={leavePublicTransport}>
             <PublicTransport />
-          </div>
-          <div onMouseEnter={enterContact} onMouseLeave={leaveContact}>
-            <SocialContact />
-          </div>
-          <div onMouseEnter={enterOndernemers} onMouseLeave={leaveOndernemers}>
-            <Ondernemers />
           </div>
           <div onMouseEnter={enterVacation} onMouseLeave={leaveVacation}>
             <Vacation />
@@ -134,12 +131,16 @@ function App() {
           <div onMouseEnter={enterWork} onMouseLeave={leaveWork}>
             <Work />
           </div>
-          <div onMouseEnter={enterUitgaven} onMouseLeave={leaveUitgaven}>
-            <Uitgaven />
-          </div>
           <div onMouseEnter={enterWorkHome} onMouseLeave={leaveWorkHome}>
             <WorkHome />
           </div>
+          <div onMouseEnter={enterOndernemers} onMouseLeave={leaveOndernemers}>
+            <Ondernemers />
+          </div>
+          <div onMouseEnter={enterUitgaven} onMouseLeave={leaveUitgaven}>
+            <Uitgaven />
+          </div>
+
 
         </div>
       </div>
