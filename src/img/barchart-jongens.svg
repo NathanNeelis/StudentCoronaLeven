@@ -8,8 +8,9 @@
 	.st2{font-size:22px;}
 	.st3{font-size:18px;}
 	.st4{opacity:0.2;fill:none;stroke:#FFFFFF;stroke-width:2;enable-background:new    ;}
-	.st5{fill:#DAB8FF;}
-	.st6{fill:#B66DE7;}
+	.st5{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+	.st6{fill:#DAB8FF;}
+	.st7{fill:#B66DE7;}
 </style>
 <text transform="matrix(1 0 0 1 188.595 40.441)" class="st0 st1 st2">Jongens</text>
 <path id="Path_1017" class="st0" d="M387,102.8"/>
@@ -29,13 +30,13 @@
 <path id="Path_1004" class="st4" d="M328.1,96.2v234.3"/>
 <text transform="matrix(1 0 0 1 44.004 132.335)" class="st0 st1 st2">Vakkenvullers</text>
 <text transform="matrix(1 0 0 1 1.2369 181.335)" class="st0 st1 st2">Krantenbezorgers</text>
-<text transform="matrix(1 0 0 1 37.536 225.62)" class="st0 st1 st2">Keukenhulpen</text>
-<text transform="matrix(1 0 0 1 47.2595 274.62)" class="st0 st1 st2">Barpersoneel</text>
-<text transform="matrix(1 0 0 1 81.0955 323.62)" class="st0 st1 st2">Verkopers</text>
-<rect id="Rectangle_835" x="209.2" y="103.2" class="st5" width="215.9" height="42.7"/>
-<rect id="Rectangle_836" x="209.5" y="150.2" class="st5" width="83.2" height="42.7"/>
-<rect id="Rectangle_834" x="209.5" y="197.2" class="st6" width="77.3" height="41.4"/>
-<path id="Path_1009" class="st6" d="M267.7,243.2v41.4h-57.6v-41.4H267.7z"/>
-<path id="Path_1007" class="st6" d="M260.2,289.2v41.4h-50.7v-41.4H260.2z"/>
+<text transform="matrix(1 0 0 1 37.536 225.62)" class="st5 st1 st2">Keukenhulpen</text>
+<text transform="matrix(1 0 0 1 47.2595 274.62)" class="st5 st1 st2">Barpersoneel</text>
+<text transform="matrix(1 0 0 1 81.0955 323.62)" class="st5 st1 st2">Verkopers</text>
+<rect id="Rectangle_835" x="209.2" y="103.2" class="st6" width="215.9" height="42.7"/>
+<rect id="Rectangle_836" x="209.5" y="150.2" class="st6" width="83.2" height="42.7"/>
+<rect id="Rectangle_834" x="209.5" y="197.2" class="st7" width="77.3" height="41.4"/>
+<path id="Path_1009" class="st7" d="M267.7,243.2v41.4h-57.6v-41.4L267.7,243.2L267.7,243.2z"/>
+<path id="Path_1007" class="st7" d="M260.2,289.2v41.4h-50.7v-41.4H260.2z"/>
 <path id="Path_1008" class="st4" d="M209.5,96.2v234.3"/>
 </svg>

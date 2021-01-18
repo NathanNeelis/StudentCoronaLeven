@@ -851,7 +851,7 @@ WORK
 }
 
 .workDatavisContainer {
-  /* width:200vw; */
+  width:50vw;
   height:65vh;
   display:flex;
   flex-direction: row;
@@ -873,7 +873,7 @@ WORK
 }
 
 .month {
-  width:8vw;
+  /* width:8vw; */
   height:100%;
   display:flex;
   flex-direction: column;
@@ -945,7 +945,7 @@ Thuiswerken
 .secondVisual {
   padding:0 2em;
   background-color:rgba(255,255,255,.3);
-  margin:1em 2em 0 2em;
+  margin:2em 2em 0 2em;
   border-radius:.5em;
 
 }
