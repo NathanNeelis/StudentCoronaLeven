@@ -25,10 +25,10 @@ export default function Navigation (props) {
                     <li className={props.workhome ? 'active' : 'notactive'}><span>Thuis werken</span></li>
                 </a> 
                 <a href="#ondernemers">
-                    <li className={props.ondernemers ? 'active' : 'notactive'}><span>Ondernemers</span></li>
+                    <li className={props.ondernemers ? 'active' : 'notactive'}><span>Uitgaven</span></li>
                 </a> 
                 <a href="#uitgaven">
-                    <li className={props.uitgaven ? 'active' : 'notactive'}><span>Uitgaven</span></li>
+                    <li className={props.uitgaven ? 'active' : 'notactive'}><span>Aankopen</span></li>
                 </a> 
             </ul>
         </nav>

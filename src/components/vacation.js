@@ -1,6 +1,6 @@
 import Message from './message';
 import MessageImage from './messageImage'
-import MTB from '../img/mtb.jpg';
+import Bier from '../img/bier.jpg';
 import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
@@ -32,7 +32,7 @@ export default function Vacation (props) {
                 <Message src={AvatarNathan} name={Nathan} message={messageEight} side='messageLeft' />
                 <Message src={AvatarJustin} name={Justin} message={messageNine} side='messageRight' />
                 <Message src={AvatarDenise} name={Denise} message={messageTen} side='messageLeft' />
-                <MessageImage src={AvatarArthur} name={Arthur} message={messageEleven} side='messageRight' image={MTB} alt="Mountainbike image"/>
+                <MessageImage src={AvatarArthur} name={Arthur} message={messageEleven} side='messageRight' image={Bier} alt="Arthur met biertje image"/>
                 <Message src={AvatarArthur} name={Arthur} message={messageTwelve} side='messageLeft' />
             </div>
         </article> 
@@ -63,8 +63,8 @@ const messageSeven = 'Ik was dus al het hele jaar bezig met die studiereis organ
 const messageEight = 'Mooi kut dus. Zuipen klinkt als het beste idee tot nu toe.';
 const messageNine = 'Wanneer gaan we zuipen dan?!';
 const messageTen = '💃🏼🍻';
-const messageEleven = '<foto Arthur met biertje>';
-const messageTwelve = ' Ik wil wel weer zo’n avond.';
+const messageEleven = '';
+const messageTwelve = 'Ik wil wel weer zo’n avond.';
 
 
 
