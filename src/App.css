@@ -929,8 +929,9 @@ WORK
   justify-content: flex-start;
 }
 
-.workLegend{
+.workLegend img{
   height:100%;
+  padding-left:2em;
 }
 
 

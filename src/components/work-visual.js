@@ -15,10 +15,10 @@ import WorkIcon from '../img/work-icon.svg'
 export default function WorkVisual(props) {
     return (
         <div className="Workcontainer">
-            {/* <div class="workLegend">
+            <div class="workLegend">
             <img src={WorkIcon} alt="icon represents" /> 
             <p>= 1000 werklozen jongeren</p>
-            </div> */}
+            </div>
             
             <div className="workDatavisContainer">
                <WorkVisualMonth image={Januari} month='januari' />
