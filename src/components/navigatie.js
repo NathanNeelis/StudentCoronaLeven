@@ -30,6 +30,9 @@ export default function Navigation (props) {
                 <a href="#uitgaven">
                     <li className={props.uitgaven ? 'active' : 'notactive'}><span>Aankopen</span></li>
                 </a> 
+                <a href="#yourstory">
+                    <li className={props.story ? 'active' : 'notactive'}><span>Jouw verhaal</span></li>
+                </a> 
             </ul>
         </nav>
     </article>

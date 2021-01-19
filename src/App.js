@@ -8,11 +8,9 @@ import Vacation from './components/vacation';
 import Work from './components/work';
 import Uitgaven from './components/uitgaven';
 import WorkHome from './components/workHome';
+import YourStory from './components/yourStory';
 import './App.css';
-import React, { useState, useEffect } from 'react';
-// import VacationVisual from './components/vacation-visual'
-import MakeVisualization from './components/barchartNL'
-import { cleaningData } from './components/transform';
+import React, { useState } from 'react';
 
 function App() {
       const [intro, setIntro] = useState(false)
@@ -24,6 +22,7 @@ function App() {
       const [work, setWork] = useState(false)
       const [uitgaven, setUitgaven] = useState(false)
       const [workHome, setWorkHome] = useState(false)
+      const [story, setStory] = useState(false)
 
 
       function enterIntroduction(){
@@ -98,6 +97,14 @@ function App() {
         setWorkHome(false)
       }
 
+      function enterStory(){
+        setStory(true)
+      }
+
+      function leaveStory(){
+        setStory(false)
+      }
+
 
 
   return (
@@ -114,6 +121,7 @@ function App() {
           work={work}
           uitgaven={uitgaven}
           workhome={workHome}
+          story={story}
         />
         <div className="scroll-container">
           <div onMouseEnter={enterIntroduction} onMouseLeave={leaveIntroduction}>
@@ -143,6 +151,9 @@ function App() {
           </div>
           <div onMouseEnter={enterUitgaven} onMouseLeave={leaveUitgaven}>
             <Uitgaven />
+          </div>
+          <div onMouseEnter={enterStory} onMouseLeave={leaveStory}>
+            <YourStory />
           </div>
           {/* <section id="extraVacatiom" className="Topic">
             <div>

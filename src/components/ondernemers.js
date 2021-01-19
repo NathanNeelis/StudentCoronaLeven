@@ -52,4 +52,4 @@ const messageFour = 'Ja of weer is uit eten. Dat bestellen wordt ook wat saai..'
 const messageFive = 'Tikt flink aan al die Uber Eats bestellingen...';
 const messageSix = 'Je kan ook zelf eens culinair doen 🍗🍗🍖';
 const messageSeven = '';
-const messageEight = '';
+const messageEight = 'Hier bestellen we nog gewoon sushi hoor. Beetje avondjes eten compenseren toch 🤷🏽‍♀️';
