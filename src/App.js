@@ -9,7 +9,10 @@ import Work from './components/work';
 import Uitgaven from './components/uitgaven';
 import WorkHome from './components/workHome';
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+// import VacationVisual from './components/vacation-visual'
+import MakeVisualization from './components/barchartNL'
+import { cleaningData } from './components/transform';
 
 function App() {
       const [intro, setIntro] = useState(false)
@@ -21,6 +24,7 @@ function App() {
       const [work, setWork] = useState(false)
       const [uitgaven, setUitgaven] = useState(false)
       const [workHome, setWorkHome] = useState(false)
+
 
       function enterIntroduction(){
           setIntro(true)
@@ -140,10 +144,17 @@ function App() {
           <div onMouseEnter={enterUitgaven} onMouseLeave={leaveUitgaven}>
             <Uitgaven />
           </div>
-
+          {/* <section id="extraVacatiom" className="Topic">
+            <div>
+            {allData && <div>
+            <MakeVisualization data={cleaningData(allData)}/>
+            </div> }
+            </div>
+          </section> */}
 
         </div>
       </div>
+      
     </div>
   );
 }

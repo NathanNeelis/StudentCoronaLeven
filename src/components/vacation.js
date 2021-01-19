@@ -5,6 +5,7 @@ import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
 import AvatarJustin from '../img/justin.svg'
+import VacationVisual from './vacation-visual'
 
 
 export default function Vacation (props) {
@@ -15,6 +16,7 @@ export default function Vacation (props) {
                 <h2>Jezelf helemaal ontdekken in Thailand? Of toch maar weer een tripje van je bed naar de bank.</h2>
                 <p></p>
             </div>
+            <VacationVisual />
         </article>
 
         <article className="messages">

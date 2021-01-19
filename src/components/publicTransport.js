@@ -6,6 +6,7 @@ import AvatarNathan from '../img/nathan.svg'
 import AvatarDenise from '../img/denise.svg'
 import AvatarArthur from '../img/arthur.svg'
 import AvatarJustin from '../img/justin.svg'
+import OvGraph from '../img/ovGraph.svg'
 
 
 export default function PublicTransport (props) {
@@ -15,6 +16,9 @@ export default function PublicTransport (props) {
             <div className="TopicInfo">
                 <h2>Wat is de beste tijd om met het OV te reizen?</h2>
                 <p></p>
+            </div>
+            <div className='ovVisual'>
+                <img src={OvGraph} alt='ov graph' />
             </div>
         </article>
 

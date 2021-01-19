@@ -10,10 +10,16 @@ import Augustus from '../img/augustus.svg'
 import September from '../img/september.svg'
 import Oktober from '../img/oktober.svg'
 import November from '../img/november.svg'
+import WorkIcon from '../img/work-icon.svg'
 
 export default function WorkVisual(props) {
     return (
         <div className="Workcontainer">
+            {/* <div class="workLegend">
+            <img src={WorkIcon} alt="icon represents" /> 
+            <p>= 1000 werklozen jongeren</p>
+            </div> */}
+            
             <div className="workDatavisContainer">
                <WorkVisualMonth image={Januari} month='januari' />
                <WorkVisualMonth image={Februari} month='februari' />
