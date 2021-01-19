@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="955.844" height="653" viewBox="0 0 955.844 653">
+  <defs>
+    <filter id="Path_13793" x="62.71" y="458.954" width="727.511" height="152.046" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_13794" x="63.375" y="516.106" width="726.848" height="94.852" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13432" data-name="Group 13432" transform="translate(-118 -286)">
+    <text id="_600" data-name="600" transform="translate(139 398)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-18.348" y="0">600</tspan></text>
+    <text id="Check-ins_per_uur_in_het_ov_2020_" data-name="Check-ins per uur in het ov, 2020 " transform="translate(118 307)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Check-ins per uur in het ov, 2020 </tspan></text>
+    <text id="x1000" transform="translate(118 338)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500" opacity="0.7"><tspan x="0" y="0">x1000</tspan></text>
+    <text id="_500" data-name="500" transform="translate(139 483)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-18.348" y="0">500</tspan></text>
+    <text id="_400" data-name="400" transform="translate(139 565)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-18.348" y="0">400</tspan></text>
+    <text id="_300" data-name="300" transform="translate(139 649)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-18.348" y="0">300</tspan></text>
+    <text id="_200" data-name="200" transform="translate(139 729)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-18.348" y="0">200</tspan></text>
+    <text id="_100" data-name="100" transform="translate(139 809)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-18.348" y="0">100</tspan></text>
+    <text id="_0" data-name="0" transform="translate(158 889)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-6.116" y="0">0</tspan></text>
+    <path id="Path_13785" data-name="Path 13785" d="M11634,2529h710.662" transform="translate(-11446 -2142)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    <path id="Path_13786" data-name="Path 13786" d="M11634,2529h711.662" transform="translate(-11445.998 -2059)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    <path id="Path_13787" data-name="Path 13787" d="M11634,2529h711.662" transform="translate(-11445.998 -1976)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    <path id="Path_13788" data-name="Path 13788" d="M11634,2529h711.662" transform="translate(-11445.998 -1893)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    <path id="Path_13789" data-name="Path 13789" d="M11634,2529h711.662" transform="translate(-11445.998 -1810)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    <path id="Path_13790" data-name="Path 13790" d="M11634,2529h711.662" transform="translate(-11444.998 -1727)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    <g id="Group_13302" data-name="Group 13302" transform="translate(-14 -2180)">
+      <path id="Path_527" data-name="Path 527" d="M0,11H25" transform="translate(947 2554.5)" fill="none" stroke="#ff86ae" stroke-linecap="round" stroke-width="3"/>
+      <text id="Voor_corona" data-name="Voor corona" transform="translate(983 2571)" fill="#fff" font-size="14" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Voor corona</tspan></text>
+      <path id="Path_528" data-name="Path 528" d="M0,11H25" transform="translate(947.422 2578.5)" fill="none" stroke="#ffe0e6" stroke-linecap="round" stroke-width="3"/>
+      <text id="Tijdens_corona" data-name="Tijdens corona" transform="translate(982.422 2595)" fill="#fff" font-size="14" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Tijdens corona</tspan></text>
+      <path id="Path_529" data-name="Path 529" d="M0,11H25" transform="translate(946.844 2602.5)" fill="none" stroke="#ffaac6" stroke-linecap="round" stroke-width="3"/>
+      <text id="Na_versoepeling" data-name="Na versoepeling" transform="translate(982.844 2619)" fill="#fff" font-size="14" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Na versoepeling</tspan></text>
+    </g>
+    <path id="Path_13791" data-name="Path 13791" d="M11634,2529h711.662" transform="translate(-11444.998 -1694)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    <path id="Path_13792" data-name="Path 13792" d="M11.375,481.9l30.8,1.328,30.8.083,30.8-.166,30.8-1.079,30.8-17.175,30.8-103.716,30.8-279.785,30.8-66.876,30.8,219.3,30.8,75.008,30.8,1.908,30.8-46.133,30.8-.664,30.8-36.01,30.8-50.7,30.8-53.766,30.8-37.587,30.8,183.868,30.8,109.441,30.8,29.87,30.8,6.057,30.8,12.446,31.587,25.1v30.3Z" transform="translate(179 401.562)" fill="#ff86ae"/>
+    <g transform="matrix(1, 0, 0, 1, 118, 286)" filter="url(#Path_13793)">
+      <path id="Path_13793-2" data-name="Path 13793" d="M11.375,320.387l30.839,1.151,30.839.089,30.839-.089,30.839-.62,30.839-9.031,30.839-34.8,30.839-41.967,30.839-14.963,30.839,18.593,30.839,5.047,30.839-9.119,30.839-14.52,30.839-2.833,30.839-5.224,30.839-6.817,30.839-11.244,30.839-6.463,30.839,39.134,30.839,35.5,30.839,13.989,30.839,5.932,30.839,5.755,30.4,11.058v21.618l-709.511.969" transform="translate(61 277.37)" fill="#fff" opacity="0.297"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 118, 286)" filter="url(#Path_13794)">
+      <path id="Path_13794-2" data-name="Path 13794" d="M11.375,288.492l30.8.581h30.8l30.8-.166,30.8-.664,30.8-8.216,30.8-28.716,30.8-19.089,30.8,3.652,30.8,10.291,30.8.249,30.8-7.469,30.8-7.055,30.8-3.486,30.8-1.328,30.8-4.233,30.8-10.623,30.8,1.079,30.8,28.467,30.8,18.093,30.8,7.221,30.8,3.735,30.8,3.569,31.356,4.451v9.778l-649.355-.37" transform="translate(61 309.89)" fill="#ffefef" opacity="0.795"/>
+    </g>
+    <g id="Group_13303" data-name="Group 13303" transform="translate(0 -73)">
+      <g id="Rectangle_1031" data-name="Rectangle 1031" transform="translate(189 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1032" data-name="Rectangle 1032" transform="translate(248 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1033" data-name="Rectangle 1033" transform="translate(307 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1034" data-name="Rectangle 1034" transform="translate(366 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1035" data-name="Rectangle 1035" transform="translate(425 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1036" data-name="Rectangle 1036" transform="translate(484 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1037" data-name="Rectangle 1037" transform="translate(543 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1038" data-name="Rectangle 1038" transform="translate(602 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1039" data-name="Rectangle 1039" transform="translate(661 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1040" data-name="Rectangle 1040" transform="translate(720 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1041" data-name="Rectangle 1041" transform="translate(779 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <g id="Rectangle_1042" data-name="Rectangle 1042" transform="translate(838 958)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2">
+        <rect width="2" height="19" stroke="none"/>
+        <rect x="1" y="1" height="17" fill="none"/>
+      </g>
+      <path id="Path_9574" data-name="Path 9574" d="M11634,2529h711.662" transform="translate(-11444.998 -1571)" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+    </g>
+    <rect id="Rectangle_1072" data-name="Rectangle 1072" width="169" height="497" transform="translate(731 387)" fill="#fff" opacity="0.241"/>
+    <rect id="Rectangle_1086" data-name="Rectangle 1086" width="190" height="497" transform="translate(458 387)" fill="#fff" opacity="0.241"/>
+    <text id="Uur" transform="translate(915 933)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-18.128" y="0">Uur</tspan></text>
+    <text id="_0-2" data-name="0" transform="translate(189 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-6.116" y="0">0</tspan></text>
+    <text id="_2" data-name="2" transform="translate(248 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-6.116" y="0">2</tspan></text>
+    <text id="_4" data-name="4" transform="translate(307 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-6.116" y="0">4</tspan></text>
+    <text id="_6" data-name="6" transform="translate(366 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-6.116" y="0">6</tspan></text>
+    <text id="_8" data-name="8" transform="translate(426 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-6.116" y="0">8</tspan></text>
+    <text id="_10" data-name="10" transform="translate(483 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-12.232" y="0">10</tspan></text>
+    <text id="_12" data-name="12" transform="translate(542 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-12.232" y="0">12</tspan></text>
+    <text id="_14" data-name="14" transform="translate(600 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-12.232" y="0">14</tspan></text>
+    <text id="_16" data-name="16" transform="translate(660 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-12.232" y="0">16</tspan></text>
+    <text id="_18" data-name="18" transform="translate(719 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-12.232" y="0">18</tspan></text>
+    <text id="_20" data-name="20" transform="translate(778 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-12.232" y="0">20</tspan></text>
+    <text id="_22" data-name="22" transform="translate(838 934)" fill="#fff" font-size="22" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="-12.232" y="0">22</tspan></text>
+  </g>
+</svg>
