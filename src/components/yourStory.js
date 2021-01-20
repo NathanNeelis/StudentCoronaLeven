@@ -1,6 +1,6 @@
 import BookIcon from '../img/background-icon3.svg'
 import Dagboek from '../documents/hetcoronadagboek.pdf'
-
+import CoronaBoek from '../img/coronaboek.png'
 export default function Intro (props) {
     return (
     <section id="yourstory" className="book">
@@ -14,11 +14,14 @@ export default function Intro (props) {
        <div className="endContainer">
         <div className="BookBGOne">
             <h4>En nu jouw verhaal…</h4>
-            <p>Bestel het Corona Dagboek en leg jouw 2020 verhaal vast. </p>
-                <div>
-                    <img src={BookIcon} alt="Corona Icon" />
+            <p>Ontdek het Corona Dagboek en leg jouw 2020 verhaal vast. </p>
+                <div className="BookWrap">
+                    <img src={BookIcon} alt="Corona Icon" className="coronaIcon"/>
+                    <div className="BookSecond">
+                        <img src={CoronaBoek} alt="Corona Icon" className="bookCover"/>
+                    </div>
                 </div>
-                <a href={Dagboek} target="blank" className="BookButton">Ontdek het Corona Dagboek</a>
+                <a href="https://www.yumpu.com/nl/document/read/65230864/hetcoronadagboek" target="blank" className="BookButton">Ontdek het Corona Dagboek</a>
         </div>
        </div>
     </section>

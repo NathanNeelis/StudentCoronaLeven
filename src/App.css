@@ -1163,8 +1163,24 @@ Your Story
   background-color:white;
 }
 
-.BookBGOne:hover img{
+.BookBGOne:hover .coronaIcon{
   animation: rotate 2s infinite; 
+}
+
+.coronaIcon{
+  opacity: .2;
+}
+
+.BookWrap {
+  position:relative;
+}
+
+
+.bookCover {
+  position:absolute;
+  height:100%;
+  top:0%;
+  right:20%;
 }
 
 .toTop{
