@@ -1,5 +1,5 @@
 import BookIcon from '../img/background-icon3.svg'
-import Dagboek from '../documents/hetcoronadagboek.pdf'
+// import Dagboek from '../documents/hetcoronadagboek.pdf'
 import CoronaBoek from '../img/coronaboek.png'
 export default function Intro (props) {
     return (
