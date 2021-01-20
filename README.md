@@ -1,10 +1,9 @@
 ### Datavisualisation - Eindproject
 Student name: Nathan Neelis  
-Team: J'AND (5)  
+Team: J'AND (team 5)  
 :earth_americas: [live website](https://nathanneelis.github.io/StudentCoronaLeven/index.html)
 
-<!-- ![concept](https://user-images.githubusercontent.com/55492381/100350696-8ed35780-2fea-11eb-9783-71df85106a75.gif)  -->
-GIFJE concept  
+![concept](https://user-images.githubusercontent.com/55492381/105157510-542efc80-5b0d-11eb-9b48-b6e543e538f9.gif)  
 
 
 ### Assignment
@@ -23,12 +22,12 @@ This project has been made with ReactJS. The reason for this is the amount of re
 
 ### Features
 #### Datavisualisations
-For each topic we inform the reader with data transformed in understandable visualisations.
--> Gif for datavisualisations
+For each topic we inform the reader with data transformed in understandable visualisations.  
+![datavis2](https://user-images.githubusercontent.com/55492381/105158330-272f1980-5b0e-11eb-9d29-ee074c014b95.gif)  
 
 #### Messages
-For each topic we give insights in the lives of these four students by showing their messages related to the topic and the Corona virus. 
--> Gif for messages
+For each topic we give insights in the lives of these four students by showing their messages related to the topic and the Corona virus.   
+![berichten](https://user-images.githubusercontent.com/55492381/105158316-239b9280-5b0e-11eb-84b6-a85562e76faa.gif)  
 
 
 ### Getting started
@@ -88,3 +87,14 @@ For each topic we give insights in the lives of these four students by showing t
 [How to use REM](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/#:~:text=16px%20%3D%201rem%20(base),24px%20%3D%201.5rem) Sitepoint  
 [Deploy React app](https://dzone.com/articles/how-to-deploy-react-apps-for-free-with-github-page) Dzone  
 [CSS Gradient generator](https://cssgradient.io/) Cssgradient.io  
+[NPM react-in-viewport](https://www.npmjs.com/package/react-in-viewport) NPM  
+[NPM Scroll position](https://www.npmjs.com/package/@n8tb1t/use-scroll-position) NPM  
+[NPM react-hook-inview](https://www.npmjs.com/package/react-hook-inview) NPM
+[Javascript scroll events](https://www.javascripttutorial.net/javascript-dom/javascript-scroll-events/) Javascripttutorial.net  
+[Check if element is visible](https://stackoverflow.com/questions/487073/how-to-check-if-element-is-visible-after-scrolling) Stackoverflow  
+[Scroll event listener](https://stackoverflow.com/questions/12522807/scroll-event-listener-javascript) Stackoverflow  
+[Active menu item on scroll](https://stackoverflow.com/questions/45458442/active-menu-item-on-page-scroll) Stackoverflow - working solution  
+[scroll snaptype](https://24ways.org/2019/beautiful-scrolling-experiences-without-libraries/) 24ways  
+
+
+
