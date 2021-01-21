@@ -51,7 +51,7 @@ export default function SocialVisual(props) {
             <div className="SCYear">
                 <p><span>2020</span></p>
             </div>
-            <p className="footerText">*Cijfers nog te publiceren door CBS</p>
+            <p className="footerText">*2020 Cijfers nog te publiceren door CBS</p>
         </div>
     );
 }
