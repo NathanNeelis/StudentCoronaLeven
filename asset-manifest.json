@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/StudentCoronaLeven/static/css/main.4cc28c98.chunk.css",
-    "main.js": "/StudentCoronaLeven/static/js/main.43823693.chunk.js",
-    "main.js.map": "/StudentCoronaLeven/static/js/main.43823693.chunk.js.map",
+    "main.js": "/StudentCoronaLeven/static/js/main.c581b858.chunk.js",
+    "main.js.map": "/StudentCoronaLeven/static/js/main.c581b858.chunk.js.map",
     "runtime-main.js": "/StudentCoronaLeven/static/js/runtime-main.c52cf524.js",
     "runtime-main.js.map": "/StudentCoronaLeven/static/js/runtime-main.c52cf524.js.map",
     "static/js/2.7fa8b55d.chunk.js": "/StudentCoronaLeven/static/js/2.7fa8b55d.chunk.js",
@@ -69,6 +69,6 @@
     "static/js/runtime-main.c52cf524.js",
     "static/js/2.7fa8b55d.chunk.js",
     "static/css/main.4cc28c98.chunk.css",
-    "static/js/main.43823693.chunk.js"
+    "static/js/main.c581b858.chunk.js"
   ]
 }
