@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/StudentCoronaLeven/static/css/main.4cc28c98.chunk.css",
-    "main.js": "/StudentCoronaLeven/static/js/main.663adb6a.chunk.js",
-    "main.js.map": "/StudentCoronaLeven/static/js/main.663adb6a.chunk.js.map",
+    "main.js": "/StudentCoronaLeven/static/js/main.43823693.chunk.js",
+    "main.js.map": "/StudentCoronaLeven/static/js/main.43823693.chunk.js.map",
     "runtime-main.js": "/StudentCoronaLeven/static/js/runtime-main.c52cf524.js",
     "runtime-main.js.map": "/StudentCoronaLeven/static/js/runtime-main.c52cf524.js.map",
     "static/js/2.7fa8b55d.chunk.js": "/StudentCoronaLeven/static/js/2.7fa8b55d.chunk.js",
@@ -32,7 +32,6 @@
     "static/media/footbal.38bfa88d.svg": "/StudentCoronaLeven/static/media/footbal.38bfa88d.svg",
     "static/media/friends.89d61847.svg": "/StudentCoronaLeven/static/media/friends.89d61847.svg",
     "static/media/golf.efd79c11.svg": "/StudentCoronaLeven/static/media/golf.efd79c11.svg",
-    "static/media/hetcoronadagboek.1ac7a37e.pdf": "/StudentCoronaLeven/static/media/hetcoronadagboek.1ac7a37e.pdf",
     "static/media/hiking.3e5baf9e.svg": "/StudentCoronaLeven/static/media/hiking.3e5baf9e.svg",
     "static/media/horse.774d698b.svg": "/StudentCoronaLeven/static/media/horse.774d698b.svg",
     "static/media/januari.aacc9fdb.svg": "/StudentCoronaLeven/static/media/januari.aacc9fdb.svg",
@@ -50,7 +49,7 @@
     "static/media/november.c93ca46d.svg": "/StudentCoronaLeven/static/media/november.c93ca46d.svg",
     "static/media/oktober.a03644ee.svg": "/StudentCoronaLeven/static/media/oktober.a03644ee.svg",
     "static/media/ovGraph.af092520.svg": "/StudentCoronaLeven/static/media/ovGraph.af092520.svg",
-    "static/media/piechart.acb45752.svg": "/StudentCoronaLeven/static/media/piechart.acb45752.svg",
+    "static/media/piechart.f51419b9.svg": "/StudentCoronaLeven/static/media/piechart.f51419b9.svg",
     "static/media/ps5.4af35bc7.png": "/StudentCoronaLeven/static/media/ps5.4af35bc7.png",
     "static/media/running.7ce3b7a0.svg": "/StudentCoronaLeven/static/media/running.7ce3b7a0.svg",
     "static/media/rutte.edbfb9a8.png": "/StudentCoronaLeven/static/media/rutte.edbfb9a8.png",
@@ -70,6 +69,6 @@
     "static/js/runtime-main.c52cf524.js",
     "static/js/2.7fa8b55d.chunk.js",
     "static/css/main.4cc28c98.chunk.css",
-    "static/js/main.663adb6a.chunk.js"
+    "static/js/main.43823693.chunk.js"
   ]
 }
